@@ -750,6 +750,8 @@
     9. [HOFFeaturedPlayers](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=HOFFeaturedPlayers)
     10. [InternationalStationRandomDropTracker](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=InternationalStationRandomDropTracker)
     11. [LastHitChallengeHighScore](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=LastHitChallengeHighScore)
+        * Hero
+        * Score
     12. [ManualTrophyGrant](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=ManualTrophyGrant)
     13. [MapLocationState](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=MapLocationState)
         * LocationID
