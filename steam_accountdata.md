@@ -6,6 +6,7 @@ Page | URL
 --- | ---
 General Account Details | https://store.steampowered.com/account
 Purchase History | https://store.steampowered.com/account/history
+Shopping Cart History | https://help.steampowered.com/en/accountdata/ShoppingCartHistory
 Licenses | https://store.steampowered.com/account/licenses
 Account Phone Number | https://store.steampowered.com/phone/manage
 Subscriptions | https://store.steampowered.com/account/subscriptions
