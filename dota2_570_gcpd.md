@@ -590,32 +590,6 @@
         * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
-        * MatchID
-        * PlayerSlot
-        * Hero
-        * AlliedHero1
-        * AlliedHero2
-        * AlliedHero3
-        * AlliedHero4
-        * EnemyHero1
-        * EnemyHero2
-        * EnemyHero3
-        * EnemyHero4
-        * EnemyHero5
-        * Item1
-        * Item2
-        * Item3
-        * Item4
-        * Item5
-        * Item6
-        * Item7
-        * Item8
-        * Item9
-        * Item10
-        * GameTime
-        * Gold
-        * NetWorth
-        * ItemPurchased
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
 12. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
     1. [PlayerChallenges](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallenges)
