@@ -1,0 +1,4 @@
+.steamcookies
+.gcpd_*
+*.swp
+Pipfile.lock
