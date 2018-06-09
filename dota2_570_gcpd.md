@@ -593,20 +593,6 @@
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
 12. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
     1. [PlayerChallenges](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallenges)
-        * EventID
-        * SlotID
-        * ChallengeType
-        * IntParam0
-        * IntParam1
-        * CreatedTime
-        * Completed
-        * SequenceID
-        * Tier
-        * Flags
-        * Attempts
-        * CompleteLimit
-        * QuestRank
-        * MaxQuestRank
     2. [PlayerChallengesAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAudit)
     3. [PlayerChallengesAuditV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV2)
     4. [PlayerChallengesAuditV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV3)
