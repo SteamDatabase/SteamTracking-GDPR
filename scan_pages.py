@@ -228,9 +228,12 @@ for appid, game_title_short, game_title in games:
             # if we still failed to load, error out
             if resp.html.find('.profile_ban_status'):
                 LOG.error("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
-                columns = prev_pages.get((tab_name, tab_id), [])
+                columns = []
             else:
                 columns = sorted(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
+
+            if not columns:
+                columns = prev_pages.get((tab_name, tab_id), [])
 
             pages[(tab_name, tab_id)] = columns
 
