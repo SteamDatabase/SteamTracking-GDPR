@@ -8,7 +8,7 @@ git add -u
 
 if [ $(git diff --cached | wc -l) -ne 0 ]; then
 
-git commit -a -m "$(git status --porcelain | wc -l) files | $(git status --porcelain | sed '{:q;N;s/\n/, /g;t q}' | sed 's/^ *//g')"
-git push
+git commit -a -m "$(git status --porcelain | wc -l) files | $(git status --porcelain | sed '{:q;N;s/\n/, /g;t q}' | sed 's/^ *//g')" > /dev/null
+git push > /dev/null
 
 fi
