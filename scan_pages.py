@@ -230,7 +230,7 @@ for appid, game_title_short, game_title in games:
                 LOG.error("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
                 columns = prev_pages.get((tab_name, tab_id), [])
             else:
-                columns = list(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
+                columns = sorted(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
 
             pages[(tab_name, tab_id)] = columns
 
@@ -246,7 +246,8 @@ for appid, game_title_short, game_title in games:
                 fp.write(f"{i}. [{tab_name}]({tab_url})\n")
 
                 for column in columns:
-                    fp.write(f"    * {column}\n")
+                    if column:
+                        fp.write(f"    * {column}\n")
 
         # save page data for next run
         try:
