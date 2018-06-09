@@ -17,7 +17,10 @@ logging.basicConfig(level=logging.INFO if sys.argv[-1] == 'debug' else logging.E
 LOG = logging.getLogger()
 
 # change cwd to wherever this file is
-os.chdir(os.path.dirname(__file__))
+try:
+    os.chdir(os.path.dirname(__file__))
+except:
+    pass
 
 def load_cookies():
     try:
@@ -70,6 +73,7 @@ def login():
 cookies = load_cookies()
 
 if not cookies:
+    LOG.info("Login required")
     cookies = login()
 
 web = HTMLSession()
@@ -115,7 +119,7 @@ else:
 LOG.info("Scanning Dota 2 pages...")
 
 try:
-    prev_pages = pickle.load(open('.gcpd_dota', 'rb'))
+    prev_pages = pickle.load(open('.gcpd_570', 'rb'))
 except Exception as exp:
     prev_pages = {}
     LOG.error("Failed to load previous Dota 2 gcpd data")
@@ -136,10 +140,9 @@ else:
 
         for c in range(4):
             resp = web.get(url, params={'category': category, 'tab': sub})
-            resp.raise_for_status()
 
             # check if data failed to load and retry
-            if resp.html.find('.profile_ban_status'):
+            if resp.status_code != 200 or resp.html.find('.profile_ban_status'):
                 sleep(2 ** (c+1) - 1)
                 continue
 
@@ -177,7 +180,77 @@ else:
 
     # save page data for next run
     try:
-        pickle.dump(page_data, open('.gcpd_dota', 'wb'))
+        pickle.dump(page_data, open('.gcpd_570', 'wb'))
     except Exception as exp:
         LOG.error("Failed to save Dota 2 gcpd data")
         LOG.exception(exp)
+
+# Other gcpd pages =====================================================================
+
+games = [
+    ('730', 'csgo', 'Counter-Strike: Global Offensive'),
+    ('440', 'tf2',  'Team Fortress 2'),
+]
+
+for appid, game_title_short, game_title in games:
+    url = f'https://steamcommunity.com/my/gcpd/{appid}'
+
+    LOG.info("Scanning %s pages...", game_title)
+
+    try:
+        prev_pages = pickle.load(open(f'.gcpd_{appid}', 'rb'))
+    except Exception as exp:
+        prev_pages = {}
+        LOG.error("Failed to load previous %s gcpd data", game_title)
+        LOG.exception(exp)
+
+    resp = web.get(url)
+
+    if resp.status_code != 200:
+        LOG.error("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
+    else:
+        pages = {}
+
+        # scan through all the dota gcpd pages
+        for tab_name, tab_id in list(map(lambda e: (e.text, e.attrs['id'].split('_', 1)[1]), resp.html.find('#tabs .tab'))):
+            LOG.info("Loading %s...", tab_name)
+
+            for c in range(4):
+                resp = web.get(url, params={'tab': tab_id})
+
+                # check if data failed to load and retry
+                if resp.status_code != 200 or resp.html.find('.profile_ban_status'):
+                    sleep(2 ** (c+1) - 1)
+                    continue
+
+                break
+
+            # if we still failed to load, error out
+            if resp.html.find('.profile_ban_status'):
+                LOG.error("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
+                columns = prev_pages.get((tab_name, tab_id), [])
+            else:
+                columns = list(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
+
+            pages[(tab_name, tab_id)] = columns
+
+        # generate output file
+        LOG.info(f"Generating {game_title_short}_{appid}_gcpd.md...")
+
+        page_data = {}
+
+        with open(f'{game_title_short}_{appid}_gcpd.md', 'w') as fp:
+            for i, ((tab_name, tab_id), columns) in enumerate(sorted(pages.items()), 1):
+                tab_url = url + "?" + urlencode({'tab': tab_id})
+
+                fp.write(f"{i}. [{tab_name}]({tab_url})\n")
+
+                for column in columns:
+                    fp.write(f"    * {column}\n")
+
+        # save page data for next run
+        try:
+            pickle.dump(page_data, open(f'.gcpd_{appid}', 'wb'))
+        except Exception as exp:
+            LOG.error("Failed to save %s gcpd data", game_title)
+            LOG.exception(exp)
