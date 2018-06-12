@@ -118,7 +118,28 @@
     21. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
         * MatchID
         * Comment
-    22. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
+    22. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+        * MatchID
+        * Target
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
+    23. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+        * MatchID
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
+    24. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
         * NotificationID
         * Type
         * ReferenceDataA
@@ -126,17 +147,20 @@
         * ReferenceDataC
         * Message
         * Timestamp
-    23. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
-    24. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    25. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    26. [ProPlayerPoints](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerPoints)
-    27. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    25. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
+    26. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
+    27. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    28. [ProPlayerPoints](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerPoints)
+    29. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
-        * FeaturedHeroID1
-        * FeaturedHeroID2
-        * FeaturedHeroID3
-    28. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
-    29. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+        * FeaturedHero1
+        * FeaturedHero2
+        * FeaturedHero3
+    30. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+        * BadgePoints
+        * RecentVictoryWeekendTourneyID
+        * BackgroundItem
+    31. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -146,9 +170,9 @@
         * Emoticon
         * Team
         * Value
-    30. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    31. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    32. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    32. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    33. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    34. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
@@ -463,7 +487,7 @@
 9. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
     1. [AccountLimitedItemPurchase](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AccountLimitedItemPurchase)
         * ItemDefIndex
-        * DefName
+        * Item
     2. [AdditionalEquip](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AdditionalEquip)
     3. [AdditionalEquipAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AdditionalEquipAudit)
     4. [CrateNoDupeState](https://steamcommunity.com/my/gcpd/570?category=Items&tab=CrateNoDupeState)
@@ -488,13 +512,13 @@
         * GiftItemID
     8. [GrantStatus](https://steamcommunity.com/my/gcpd/570?category=Items&tab=GrantStatus)
         * DefIndex
-        * DefName
+        * Item
         * Quantity
     9. [ItemDropRateBooster](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemDropRateBooster)
     10. [ItemLeagueViewPass](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemLeagueViewPass)
         * LeagueID
         * DefIndex
-        * DefName
+        * Item
         * GrantReason
     11. [ItemTournamentPassport](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemTournamentPassport)
         * LeagueID
@@ -503,7 +527,7 @@
         * PassportsBought
         * Version
         * DefIndex
-        * DefName
+        * Item
         * RewardFlags
     12. [ManualItemGrantV1](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ManualItemGrantV1)
     13. [RedeemCodesTable](https://steamcommunity.com/my/gcpd/570?category=Items&tab=RedeemCodesTable)
@@ -589,6 +613,77 @@
         * Plus
         * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
+        * MatchID
+        * HeroDamage
+        * TowerDamage
+        * HeroHealing
+        * GoldSpent
+        * ScaledHeroDamage
+        * ScaledTowerDamage
+        * ScaledHeroHealing
+        * Gold
+        * TimeLastSeen
+        * PartyID
+        * ClaimedFarmGold
+        * SupportGold
+        * ClaimedDenies
+        * ClaimedMisses
+        * Misses
+        * Ability1
+        * Ability2
+        * Ability3
+        * Ability4
+        * Ability5
+        * Ability6
+        * Ability7
+        * Ability8
+        * Ability9
+        * Ability10
+        * Ability11
+        * Ability12
+        * Ability13
+        * Ability14
+        * Ability15
+        * Ability16
+        * Ability17
+        * Ability18
+        * Ability19
+        * Ability20
+        * Ability21
+        * Ability22
+        * Ability23
+        * Ability24
+        * Ability25
+        * AbilityTime1
+        * AbilityTime2
+        * AbilityTime3
+        * AbilityTime4
+        * AbilityTime5
+        * AbilityTime6
+        * AbilityTime7
+        * AbilityTime8
+        * AbilityTime9
+        * AbilityTime10
+        * AbilityTime11
+        * AbilityTime12
+        * AbilityTime13
+        * AbilityTime14
+        * AbilityTime15
+        * AbilityTime16
+        * AbilityTime17
+        * AbilityTime18
+        * AbilityTime19
+        * AbilityTime20
+        * AbilityTime21
+        * AbilityTime22
+        * AbilityTime23
+        * AbilityTime24
+        * HeroPickOrder
+        * SafeLane
+        * OffLane
+        * MidLane
+        * Jungle
+        * Roam
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
         * MatchID
         * PlayerSlot
@@ -602,16 +697,16 @@
         * EnemyHero3
         * EnemyHero4
         * EnemyHero5
-        * Item1
-        * Item2
-        * Item3
-        * Item4
-        * Item5
-        * Item6
-        * Item7
-        * Item8
-        * Item9
-        * Item10
+        * InventoryItem1
+        * InventoryItem2
+        * InventoryItem3
+        * InventoryItem4
+        * InventoryItem5
+        * InventoryItem6
+        * InventoryItem7
+        * InventoryItem8
+        * InventoryItem9
+        * InventoryItem10
         * GameTime
         * Gold
         * NetWorth
@@ -689,7 +784,7 @@
         * CurrLapGames
         * BestLapGames
         * BestLapTime
-        * Hero
+        * StartHero
         * CurrHeroGames
         * PrevHeroGames
     2. [AssassinMinigameDrops](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AssassinMinigameDrops)
