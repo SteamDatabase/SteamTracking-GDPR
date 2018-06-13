@@ -244,10 +244,9 @@ for appid, game_title_short, game_title in games:
         # generate output file
         LOG.info(f"Generating {game_title_short}_{appid}_gcpd.md...")
 
-        page_data = {}
-
         with open(f'{game_title_short}_{appid}_gcpd.md', 'w') as fp:
             for i, ((tab_name, tab_id), columns) in enumerate(sorted(pages.items()), 1):
+
                 tab_url = url + "?" + urlencode({'tab': tab_id})
 
                 fp.write(f"{i}. [{tab_name}]({tab_url})\n")
@@ -258,7 +257,7 @@ for appid, game_title_short, game_title in games:
 
         # save page data for next run
         try:
-            pickle.dump(page_data, open(f'.gcpd_{appid}', 'wb'))
+            pickle.dump(pages, open(f'.gcpd_{appid}', 'wb'))
         except Exception as exp:
             LOG.error("Failed to save %s gcpd data", game_title)
             LOG.exception(exp)
