@@ -6,3 +6,4 @@ Tracking things, so you don't have to.
 * [Dota 2](dota2_570_gcpd.md)
 * [Counter-Strike: Global Offensive](csgo_730_gcpd.md)
 * [Team Fortress 2](tf2_440_gcpd.md)
+* [Portal 2](portal2_620_gcpd.md)

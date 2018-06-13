@@ -192,6 +192,7 @@ else:
 
 games = [
     ('730', 'csgo', 'Counter-Strike: Global Offensive'),
+    ('620', 'portal2',  'Portal 2'),
     ('440', 'tf2',  'Team Fortress 2'),
 ]
 
