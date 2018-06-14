@@ -165,28 +165,31 @@ else:
 
     page_data = {}
 
-    with open('dota2_570_gcpd.md', 'w') as fp:
-        for i, category in enumerate(sorted(pages.keys()), 1):
-            category_url = url + "?" + urlencode({'category': category})
+    if not pages:
+        LOG.error("Empty pages Dota 2 (570)")
+    else:
+        with open('dota2_570_gcpd.md', 'w') as fp:
+            for i, category in enumerate(sorted(pages.keys()), 1):
+                category_url = url + "?" + urlencode({'category': category})
 
-            fp.write(f"{i}. [{category}]({category_url})\n")
+                fp.write(f"{i}. [{category}]({category_url})\n")
 
-            for ii, (subcat, columns) in enumerate(sorted(pages[category]), 1):
-                page_data[(category, subcat)] = columns
+                for ii, (subcat, columns) in enumerate(sorted(pages[category]), 1):
+                    page_data[(category, subcat)] = columns
 
-                subcat_url = url + "?" + urlencode({'category': category, 'tab': subcat})
+                    subcat_url = url + "?" + urlencode({'category': category, 'tab': subcat})
 
-                fp.write(f"    {ii}. [{subcat}]({subcat_url})\n")
+                    fp.write(f"    {ii}. [{subcat}]({subcat_url})\n")
 
-                for column in columns:
-                    fp.write(f"        * {column}\n")
+                    for column in columns:
+                        fp.write(f"        * {column}\n")
 
-    # save page data for next run
-    try:
-        pickle.dump(page_data, open('.gcpd_570', 'wb'))
-    except Exception as exp:
-        LOG.error("Failed to save Dota 2 gcpd data")
-        LOG.exception(exp)
+        # save page data for next run
+        try:
+            pickle.dump(page_data, open('.gcpd_570', 'wb'))
+        except Exception as exp:
+            LOG.error("Failed to save Dota 2 gcpd data")
+            LOG.exception(exp)
 
 # Other gcpd pages =====================================================================
 
@@ -244,20 +247,23 @@ for appid, game_title_short, game_title in games:
         # generate output file
         LOG.info(f"Generating {game_title_short}_{appid}_gcpd.md...")
 
-        with open(f'{game_title_short}_{appid}_gcpd.md', 'w') as fp:
-            for i, ((tab_name, tab_id), columns) in enumerate(sorted(pages.items()), 1):
+        if not pages:
+            LOG.error("Empty pages for %s (%s)", game_title, appid)
+        else:
+            with open(f'{game_title_short}_{appid}_gcpd.md', 'w') as fp:
+                for i, ((tab_name, tab_id), columns) in enumerate(sorted(pages.items()), 1):
 
-                tab_url = url + "?" + urlencode({'tab': tab_id})
+                    tab_url = url + "?" + urlencode({'tab': tab_id})
 
-                fp.write(f"{i}. [{tab_name}]({tab_url})\n")
+                    fp.write(f"{i}. [{tab_name}]({tab_url})\n")
 
-                for column in columns:
-                    if column:
-                        fp.write(f"    * {column}\n")
+                    for column in columns:
+                        if column:
+                            fp.write(f"    * {column}\n")
 
-        # save page data for next run
-        try:
-            pickle.dump(pages, open(f'.gcpd_{appid}', 'wb'))
-        except Exception as exp:
-            LOG.error("Failed to save %s gcpd data", game_title)
-            LOG.exception(exp)
+            # save page data for next run
+            try:
+                pickle.dump(pages, open(f'.gcpd_{appid}', 'wb'))
+            except Exception as exp:
+                LOG.error("Failed to save %s gcpd data", game_title)
+                LOG.exception(exp)
