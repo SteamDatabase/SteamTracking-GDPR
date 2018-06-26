@@ -286,6 +286,11 @@
         * Flags
     11. [EventManualActionGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualActionGrant)
     12. [EventManualPointGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualPointGrant)
+        * EventID
+        * Points
+        * Premium
+        * AuditAction
+        * AuditData
     13. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
         * EventID
         * ActionID
