@@ -21,6 +21,8 @@ Family Sharing | https://store.steampowered.com/account/managedevices
 Workshop Payment Info | https://steamcommunity.com//my/workshoppaymentinfo
 Family View | https://store.steampowered.com//parental/set
 Recent Help Requests | https://help.steampowered.com/en/wizard/HelpRequests
+Recent Third Party Site Logins | https://help.steampowered.com/en/accountdata/ThirdPartyLogins
+Recent Login History | https://help.steampowered.com/en/accountdata/SteamLoginHistory
 Developer Settings | https://steamcommunity.com/dev/apikey
 Steam Hardware Registrations | https://help.steampowered.com/en/accountdata/SteamHardwareRegistrations
 Tournament Registrations | https://help.steampowered.com/en/accountdata/TournamentRegistrations
@@ -131,6 +133,7 @@ Broadcasts
 Page | URL
 --- | ---
 Own Broadcasts | https://steamcommunity.com/broadcast/history
+Viewed Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastViews
 Reported Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastRepots
 Broadcast RTMP Settings | https://steamcommunity.com/broadcast/upload
 
