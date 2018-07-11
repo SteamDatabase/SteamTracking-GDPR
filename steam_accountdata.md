@@ -75,6 +75,7 @@ Achievements | https://steamcommunity.com/my/games?tab=all
 Leaderboard Entries | https://help.steampowered.com/en/accountdata/LeaderboardEntries
 Turn Notifications | https://steamcommunity.com/my/gamenotifications
 Recently Played With | https://steamcommunity.com/friends/recent
+Activity at Steam Licensed Sites | https://store.steampowered.com/account/licensedsiteactivity
 
 Uploaded Content
 ----------------
