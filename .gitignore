@@ -2,4 +2,4 @@
 .gcpd_*
 *.swp
 Pipfile.lock
-.log
+*.log
