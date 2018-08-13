@@ -11,7 +11,7 @@ from getpass import getpass
 from requests_html import HTMLSession
 from steam import webauth as wa
 
-logging.basicConfig(level=logging.INFO if sys.argv[-1] == 'debug' else logging.ERROR,
+logging.basicConfig(level=logging.DEBUG if sys.argv[-1] == 'debug' else logging.ERROR,
                     format="%(levelname)-8s | %(message)s",
                     )
 LOG = logging.getLogger()
@@ -95,34 +95,39 @@ if resp.history:
 
 LOG.info("Scanning help site accountdata page...")
 
-resp = web.get('https://help.steampowered.com/en/accountdata')
+resp = web.get('https://help.steampowered.com/en/accountdata', allow_redirects=False)
 
 if resp.status_code != 200:
-    LOG.info("Failed to load accountdata page. HTTP Code: %d", resp.status_code)
+    LOG.error("Failed to load accountdata page. HTTP Code: %d", resp.status_code)
 else:
     # generate markdown version of the account data page
-    with open("steam_accountdata.md", "w") as fp:
-        for elm in resp.html.find('.AccountDataPage .feature_title,.AccountDataPage a'):
-            title = elm.text
+    elements = resp.html.find('.AccountDataPage .feature_title,.AccountDataPage a')
 
-            # a tags are for pages
-            if elm.element.tag == 'a':
-                if steamid in elm.attrs['href']:
-                    raise RuntimeError("SteamID in URL")
+    if not elements:
+        LOG.error("Account page has no elements")
+    else:
+        with open("steam_accountdata.md", "w") as fp:
+            for elm in elements:
+                title = elm.text
 
-                url = elm.attrs['href']
+                # a tags are for pages
+                if elm.element.tag == 'a':
+                    if steamid in elm.attrs['href']:
+                        raise RuntimeError("SteamID in URL")
 
-                fp.write(f'{title} | {url}\n')
-            # feature_title are the seperate categories
-            else:
-                underline = '-' * len(title)
+                    url = elm.attrs['href']
 
-                fp.write(f"\n{title}\n"
-                         f"{underline}\n"
-                         f"\n"
-                         f"Page | URL\n"
-                         f"--- | ---\n"
-                         )
+                    fp.write(f'{title} | {url}\n')
+                # feature_title are the seperate categories
+                else:
+                    underline = '-' * len(title)
+
+                    fp.write(f"\n{title}\n"
+                             f"{underline}\n"
+                             f"\n"
+                             f"Page | URL\n"
+                             f"--- | ---\n"
+                             )
 
 # Dota 2 gcpd pages =====================================================================
 
