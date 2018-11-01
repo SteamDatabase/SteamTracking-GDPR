@@ -557,12 +557,9 @@
         * TimeStamp
     3. [CosplayRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=CosplayRegisteredUsers)
     4. [LeagueAdmin](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAdmin)
-    5. [LeagueAdmins](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAdmins)
-    6. [LeagueAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAudit)
-    7. [LeagueMessage](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueMessage)
-    8. [LeagueTournamentAccount](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueTournamentAccount)
-    9. [Leagues](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=Leagues)
-    10. [LeaguesTournamentAccount](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeaguesTournamentAccount)
+    5. [LeagueAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAudit)
+    6. [LeagueMessage](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueMessage)
+    7. [LeagueTournamentAccount](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueTournamentAccount)
 11. [Matches](https://steamcommunity.com/my/gcpd/570?category=Matches)
     1. [BotPlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=BotPlayerMatchHistory)
     2. [CorporationMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=CorporationMatchHistory)
@@ -918,10 +915,7 @@
         * OriginalFails
         * NewFails
 15. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
-    1. [RegisteredTeam](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=RegisteredTeam)
-    2. [RegisteredTeamPlayer](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=RegisteredTeamPlayer)
-    3. [RegisteredTeamPlayerAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=RegisteredTeamPlayerAudit)
-    4. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
+    1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
         * Timestamp
         * TeamID
         * Create
@@ -934,11 +928,11 @@
         * SetLocked
         * Data1
         * Data2
-    5. [TeamCreationTime](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamCreationTime)
-    6. [TeamMembership](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamMembership)
+    2. [TeamCreationTime](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamCreationTime)
+    3. [TeamMembership](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamMembership)
         * TeamID
         * Timestamp
-    7. [TeamRegistration](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistration)
-    8. [TeamRegistrationAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationAudit)
-    9. [TeamRegistrationInvite](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationInvite)
-    10. [TeamRegistrationPlayer](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationPlayer)
+    4. [TeamRegistration](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistration)
+    5. [TeamRegistrationAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationAudit)
+    6. [TeamRegistrationInvite](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationInvite)
+    7. [TeamRegistrationPlayer](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationPlayer)
