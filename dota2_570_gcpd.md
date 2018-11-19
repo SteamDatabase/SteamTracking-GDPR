@@ -212,10 +212,16 @@
     4. [ContestVotes](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=ContestVotes)
     5. [PassportAudit](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportAudit)
     6. [PassportPlayerCardChallenges](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportPlayerCardChallenges)
+        * LeagueID
+        * ChallengeID
+        * CompleteTime
     7. [PassportSelection](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportSelection)
         * SelectionIndex
         * Selection
     8. [PassportStampedPlayers](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportStampedPlayers)
+        * StampedSteamID
+        * LeagueID
+        * StampLevel
     9. [PassportVote](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportVote)
 5. [Events](https://steamcommunity.com/my/gcpd/570?category=Events)
     1. [ArcanaVotesAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ArcanaVotesAudit)
