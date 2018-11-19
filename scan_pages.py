@@ -129,93 +129,102 @@ else:
                              f"--- | ---\n"
                              )
 
-# Dota 2 gcpd pages =====================================================================
+# Dropdown gcpd pages =====================================================================
 
-LOG.info("Scanning Dota 2 pages...")
+dd_games = [
+    ('570', 'dota2', 'Dota 2'),
+    ('583950', 'artifact', 'Artifact'),
+]
 
-try:
-    prev_pages = pickle.load(open('.gcpd_570', 'rb'))
-except Exception as exp:
-    prev_pages = {}
-    LOG.info("Failed to load previous Dota 2 gcpd data")
-#   LOG.exception(exp)
+for appid, game_title_short, game_title in dd_games:
+    LOG.info("Scanning %s pages...", game_title)
 
-url = 'https://steamcommunity.com/my/gcpd/570'
+    try:
+        prev_pages = pickle.load(open('.gcpd_' % appid, 'rb'))
+    except Exception as exp:
+        prev_pages = {}
+        LOG.info("Failed to load previous %s gcpd data", game_title)
+    #   LOG.exception(exp)
 
-resp = web.get(url)
+    url = f'https://steamcommunity.com/profiles/{steamid}/gcpd/{appid}'
+    my_url = f'https://steamcommunity.com/my/gcpd/{appid}'
 
-if resp.status_code != 200:
-    LOG.info("Failed to load Dota 2 gcpd page. HTTP Code: %d", resp.status_code)
-else:
-    pages = {}
 
-    # scan through all the dota gcpd pages
-    for category, sub, subname in re.findall(r"#profile_private_info_categories_dd.*?== \'(.*?)\' \).*?{ value:\'(.*?)\', text:\'(.*?)\'}", resp.html.text):
-        LOG.info("Loading %s -> %s", category, sub)
+    resp = web.get(url)
 
-        for c in range(4):
-            resp = web.get(url, params={'category': category, 'tab': sub})
-
-            # check if data failed to load and retry
-            if resp.status_code != 200 or resp.html.find('.profile_ban_status'):
-                sleep(2 ** (c+1) - 1)
-                continue
-
-            break
-
-        # if we still failed to load, error out
-        if resp.html.find('.profile_ban_status'):
-            LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
-            columns = []
-        else:
-            columns = list(map(lambda x: x.text, resp.html.find('.generic_kv_table th')))
-
-        if not columns:
-            columns = prev_pages.get((category, sub), [])
-
-        pages.setdefault(category, []).append((sub, columns))
-
-    # generate output file
-    LOG.info("Generating dota2_570_gcpd.md...")
-
-    page_data = {}
-
-    if not pages:
-        LOG.info("Empty pages Dota 2 (570)")
+    if resp.status_code != 200:
+        LOG.info("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
     else:
-        with open('dota2_570_gcpd.md', 'w') as fp:
-            for i, category in enumerate(sorted(pages.keys()), 1):
-                category_url = url + "?" + urlencode({'category': category})
+        pages = {}
 
-                fp.write(f"{i}. [{category}]({category_url})\n")
+        # scan through all the dota gcpd pages
+        for category, sub, subname in re.findall(r"#profile_private_info_categories_dd.*?== \'(.*?)\' \).*?{ value:\'(.*?)\', text:\'(.*?)\'}", resp.html.text):
+            LOG.info("Loading %s -> %s", category, sub)
 
-                for ii, (subcat, columns) in enumerate(sorted(pages[category]), 1):
-                    page_data[(category, subcat)] = columns
+            for c in range(4):
+                resp = web.get(url, params={'category': category, 'tab': sub})
 
-                    subcat_url = url + "?" + urlencode({'category': category, 'tab': subcat})
+                # check if data failed to load and retry
+                if resp.status_code != 200 or resp.html.find('.profile_ban_status'):
+                    sleep(2 ** (c+1) - 1)
+                    continue
 
-                    fp.write(f"    {ii}. [{subcat}]({subcat_url})\n")
+                break
 
-                    for column in columns:
-                        fp.write(f"        * {column}\n")
+            # if we still failed to load, error out
+            if resp.html.find('.profile_ban_status'):
+                LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
+                columns = []
+            else:
+                columns = list(map(lambda x: x.text, resp.html.find('.generic_kv_table th')))
 
-        # save page data for next run
-        try:
-            pickle.dump(page_data, open('.gcpd_570', 'wb'))
-        except Exception as exp:
-            LOG.info("Failed to save Dota 2 gcpd data")
-#           LOG.exception(exp)
+            if not columns:
+                columns = prev_pages.get((category, sub), [])
 
-# Other gcpd pages =====================================================================
+            pages.setdefault(category, []).append((sub, columns))
 
-games = [
+        # generate output file
+        LOG.info("Generating %s_%s_gcpd.md...", game_title_short, appid)
+
+        page_data = {}
+
+        if not pages:
+            LOG.info("Empty pages %s (%s)", game_title, appid)
+        else:
+            with open('%s_%s_gcpd.md' % (game_title_short, appid), 'w') as fp:
+                for i, category in enumerate(sorted(pages.keys()), 1):
+                    category_url = my_url + "?" + urlencode({'category': category})
+
+                    fp.write(f"{i}. [{category}]({category_url})\n")
+
+                    for ii, (subcat, columns) in enumerate(sorted(pages[category]), 1):
+                        page_data[(category, subcat)] = columns
+
+                        subcat_url = my_url + "?" + urlencode({'category': category, 'tab': subcat})
+
+                        fp.write(f"    {ii}. [{subcat}]({subcat_url})\n")
+
+                        for column in columns:
+                            fp.write(f"        * {column}\n")
+
+            # save page data for next run
+            try:
+                pickle.dump(page_data, open(f'.gcpd_{appid}', 'wb'))
+            except Exception as exp:
+                LOG.info("Failed to save %s gcpd data", game_title)
+                LOG.exception(exp)
+
+# Tabbed gcpd pages =====================================================================
+
+tab_games = [
     ('730', 'csgo', 'Counter-Strike: Global Offensive'),
     ('620', 'portal2',  'Portal 2'),
     ('440', 'tf2',  'Team Fortress 2'),
 ]
 
-for appid, game_title_short, game_title in games:
-    url = f'https://steamcommunity.com/my/gcpd/{appid}'
+for appid, game_title_short, game_title in tab_games:
+    url = f'https://steamcommunity.com/profiles/{steamid}/gcpd/{appid}'
+    my_url = f'https://steamcommunity.com/my/gcpd/{appid}'
 
     LOG.info("Scanning %s pages...", game_title)
 
@@ -268,7 +277,7 @@ for appid, game_title_short, game_title in games:
             with open(f'{game_title_short}_{appid}_gcpd.md', 'w') as fp:
                 for i, ((tab_name, tab_id), columns) in enumerate(sorted(pages.items()), 1):
 
-                    tab_url = url + "?" + urlencode({'tab': tab_id})
+                    tab_url = my_url + "?" + urlencode({'tab': tab_id})
 
                     fp.write(f"{i}. [{tab_name}]({tab_url})\n")
 
