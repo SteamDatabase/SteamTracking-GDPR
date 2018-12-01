@@ -334,6 +334,10 @@
         * LeagueID
         * TokensWagered
         * PredictedVictor
+        * Unfinished
+        * Lost
+        * Won
+        * Tied
 6. [Fantasy](https://steamcommunity.com/my/gcpd/570?category=Fantasy)
     1. [FantasyAudit](https://steamcommunity.com/my/gcpd/570?category=Fantasy&tab=FantasyAudit)
         * FantasyLeagueID
