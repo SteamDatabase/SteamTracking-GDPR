@@ -1,5 +1,7 @@
 #!/bin/bash
 
+date
+
 # scan for changes
 pipenv run python scan_pages.py
 

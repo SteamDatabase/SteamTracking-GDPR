@@ -46,9 +46,13 @@
 8. [Major Pick'Em](https://steamcommunity.com/my/gcpd/730?tab=majors)
 9. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
     * Last Match
+    * Last Win
     * Losses
+    * Matches Played
     * Matchmaking Mode
     * Skill Group
+    * Solo Wins
+    * Squad Wins
     * Ties
     * Wins
 10. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)

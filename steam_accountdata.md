@@ -127,6 +127,7 @@ My Sale Votes | https://help.steampowered.com/en/accountdata/MySaleVotes
 Steam Award Nominations 2016 | https://store.steampowered.com/SteamAwards/2016/
 Steam Award Nominations 2017 | https://store.steampowered.com/SteamAwards/2017/
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning
+Community Events Followed | https://help.steampowered.com/en/accountdata/EventFollows
 
 Broadcasts
 ----------
@@ -134,6 +135,7 @@ Broadcasts
 Page | URL
 --- | ---
 Own Broadcasts | https://steamcommunity.com/broadcast/history
+Broadcast Preferences | https://help.steampowered.com/en/accountdata/BroadcastPreferences
 Viewed Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastViews
 Reported Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastRepots
 Broadcast RTMP Settings | https://steamcommunity.com/broadcast/upload
