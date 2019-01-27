@@ -303,12 +303,6 @@
         * MatchID
         * Player
     20. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
-        * MatchID
-        * MaxWager
-        * Wager
-        * Winnings
-        * TokenItemID
-        * RankWager
     21. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
     22. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
         * ResourceType
