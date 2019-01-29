@@ -41,7 +41,8 @@
         * SoloSeasonalRankedRankPeak2017
         * SoloSeasonalRankedCalibrationGamesLeft2017
         * SoloSeasonalRankedGamesPlayed2017
-        * RankTier2017
+        * RankTier2019
+        * RankTier2018
         * PreviousCompRank
         * PreviousSoloCompRank
         * XP
