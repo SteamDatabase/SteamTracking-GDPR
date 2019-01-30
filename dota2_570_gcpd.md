@@ -28,7 +28,71 @@
         * TradeBanExpiration
         * NumGiftsGiven
     9. [GameAccountClient](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountClient)
+        * Wins
+        * Losses
+        * SoloCalibrationGamesLeft
+        * GeneralSeasonalRankedRank2017
+        * GeneralSeasonalRankedRankUncertainty2017
+        * GeneralSeasonalRankedRankPeak2017
+        * GeneralSeasonalRankedCalibrationGamesLeft2017
+        * GeneralSeasonalRankedGamesPlayed2017
+        * SoloSeasonalRankedRank2017
+        * SoloSeasonalRankedRankUncertainty2017
+        * SoloSeasonalRankedRankPeak2017
+        * SoloSeasonalRankedCalibrationGamesLeft2017
+        * SoloSeasonalRankedGamesPlayed2017
+        * RankTier2019
+        * RankTier2018
+        * PreviousCompRank
+        * PreviousSoloCompRank
+        * XP
+        * Level
+        * InitialSkill
+        * Teaching
+        * Leadership
+        * Friendly
+        * Forgiving
+        * PartnerAccountType
+        * PositiveReportsRemaining
+        * NegativeReportsRemaining
+        * LowPriorityGamesRemaining
+        * RecruitmentLevel
+        * CasualGamesPlayed
+        * SoloCompGamesPlayed
+        * PartyCompGamesPlayed
+        * Casual1v1GamesPlayed
+        * TeamGamesPlayed
+        * CurrAllHeroChallengeID
+        * AccountFlags
+        * PlayTimePoints
+        * PlayTimeLevel
+        * ClosestRegionID
+        * ClosestRegionPing
+        * ClosestRelayID
+        * ClosestRelayPing
+        * TourneySkillLevel
+        * TourneyRecentDate
+        * FavoriteTeam
+        * WinStreak
+        * AnchoredPhoneNumberID
+        * RecentGameTime3
+        * RecentGameTime2
+        * RecentGameTime1
+        * RecentWinTime3
+        * RecentWinTime2
+        * RecentWinTime1
+        * FavoriteTeamPacked
     10. [GameAccountPlus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountPlus)
+        * StartDate
+        * GameHeroStandingsPlusBackfilled
+        * GameHeroEnemyHeroChecklistBackfilled
+        * FreeTrialConsumed
+        * HasPaidActivation
+        * SubscriptionWillExpire
+        * PrepaidTimeStart
+        * PrepaidTimeBalance
+        * NextPaymentDate
+        * SteamAgreementID
     11. [GamePartnerAccountPermissions](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GamePartnerAccountPermissions)
     12. [GameSessionData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameSessionData)
         * LastLoggedOut
@@ -135,10 +199,6 @@
         * CreationTimestamp
 4. [Compendium](https://steamcommunity.com/my/gcpd/570?category=Compendium)
     1. [CompendiumInGamePredictionSubmittedValues](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumInGamePredictionSubmittedValues)
-        * MatchID
-        * SelectionIndex
-        * SelectionValue
-        * LeagueID
     2. [CompendiumSelection](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumSelection)
         * SelectionIndex
         * Selection
@@ -233,8 +293,6 @@
         * Timestamp
         * PointsSpent
     17. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
-        * EventID
-        * Level
     18. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
     19. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
         * MatchID
@@ -626,7 +684,35 @@
     6. [GameHeroFavorites](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroFavorites)
         * Hero
     7. [GameHeroStandings](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandings)
+        * Hero
+        * Wins
+        * Losses
+        * WinStreak
+        * BestWinStreak
+        * NumStatsSamples
+        * AverageKills
+        * AverageDeaths
+        * AverageAssists
+        * AvgGPM
+        * AvgXPM
+        * BestKills
+        * BestGPM
+        * BestXPM
+        * NumLHDSamples
+        * AvgLastHits
+        * AvgDenies
     8. [GameHeroStandingsPlus](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandingsPlus)
+        * Hero
+        * WinsWith
+        * LossesWith
+        * WinsAgainst
+        * LossesAgainst
+        * NetworthPeak
+        * LastHitPeak
+        * DenyPeak
+        * DamagePeak
+        * LongestGame
+        * HealingPeak
     9. [HOFFeaturedPlayers](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=HOFFeaturedPlayers)
     10. [InternationalStationRandomDropTracker](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=InternationalStationRandomDropTracker)
     11. [LastHitChallengeHighScore](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=LastHitChallengeHighScore)
