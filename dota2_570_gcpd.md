@@ -475,11 +475,6 @@
         * MatchID
         * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
-        * ResultTime
-        * ResultID
-        * PlayerAccount
-        * UILanguage
-        * LaneSelectionFlags
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
         * MatchID
         * Duration
