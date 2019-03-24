@@ -142,7 +142,7 @@
     23. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     24. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
     25. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    26. [ProPlayerPoints](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerPoints)
+    26. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
     27. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
