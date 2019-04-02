@@ -381,9 +381,6 @@
         * 3rdPartyMatchHistory
         * ProfilePrivate
     2. [MatchSpectatorIDs](https://steamcommunity.com/my/gcpd/570?category=History&tab=MatchSpectatorIDs)
-        * MatchID
-        * IsSpectator
-        * PartyAccountID
     3. [PlayerBroadcasterHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerBroadcasterHistory)
     4. [PlayerCoachHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachHistory)
         * MatchID
