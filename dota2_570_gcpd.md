@@ -167,10 +167,6 @@
     32. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
-        * TeamGID
-        * BuyIn
-        * SkillLevel
-        * StreakAfter
     2. [AutomatedTourneyPlayerStats](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayerStats)
         * SeasonTrophyID
         * SkillLevel
@@ -185,11 +181,6 @@
         * Score
 3. [Chat](https://steamcommunity.com/my/gcpd/570?category=Chat)
     1. [PrivateChatChannelAudit](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelAudit)
-        * PrivateChatID
-        * Timestamp
-        * Action
-        * Account1
-        * Account2
     2. [PrivateChatChannelMembers](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelMembers)
         * PrivateChatID
         * Admin
@@ -426,14 +417,6 @@
         * Item
         * GrantReason
     11. [ItemTournamentPassport](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemTournamentPassport)
-        * LeagueID
-        * ItemID
-        * OriginalPurchaser
-        * PassportsBought
-        * Version
-        * DefIndex
-        * Item
-        * RewardFlags
     12. [ManualItemGrantV1](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ManualItemGrantV1)
     13. [RedeemCodesTable](https://steamcommunity.com/my/gcpd/570?category=Items&tab=RedeemCodesTable)
     14. [TFTransaction](https://steamcommunity.com/my/gcpd/570?category=Items&tab=TFTransaction)
