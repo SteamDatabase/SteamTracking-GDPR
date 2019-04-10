@@ -28,7 +28,71 @@
         * TradeBanExpiration
         * NumGiftsGiven
     9. [GameAccountClient](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountClient)
+        * Wins
+        * Losses
+        * SoloCalibrationGamesLeft
+        * GeneralSeasonalRankedRank2017
+        * GeneralSeasonalRankedRankUncertainty2017
+        * GeneralSeasonalRankedRankPeak2017
+        * GeneralSeasonalRankedCalibrationGamesLeft2017
+        * GeneralSeasonalRankedGamesPlayed2017
+        * SoloSeasonalRankedRank2017
+        * SoloSeasonalRankedRankUncertainty2017
+        * SoloSeasonalRankedRankPeak2017
+        * SoloSeasonalRankedCalibrationGamesLeft2017
+        * SoloSeasonalRankedGamesPlayed2017
+        * RankTier2019
+        * RankTier2018
+        * PreviousCompRank
+        * PreviousSoloCompRank
+        * XP
+        * Level
+        * InitialSkill
+        * Teaching
+        * Leadership
+        * Friendly
+        * Forgiving
+        * PartnerAccountType
+        * PositiveReportsRemaining
+        * NegativeReportsRemaining
+        * LowPriorityGamesRemaining
+        * RecruitmentLevel
+        * CasualGamesPlayed
+        * SoloCompGamesPlayed
+        * PartyCompGamesPlayed
+        * Casual1v1GamesPlayed
+        * TeamGamesPlayed
+        * CurrAllHeroChallengeID
+        * AccountFlags
+        * PlayTimePoints
+        * PlayTimeLevel
+        * ClosestRegionID
+        * ClosestRegionPing
+        * ClosestRelayID
+        * ClosestRelayPing
+        * TourneySkillLevel
+        * TourneyRecentDate
+        * FavoriteTeam
+        * WinStreak
+        * AnchoredPhoneNumberID
+        * RecentGameTime3
+        * RecentGameTime2
+        * RecentGameTime1
+        * RecentWinTime3
+        * RecentWinTime2
+        * RecentWinTime1
+        * FavoriteTeamPacked
     10. [GameAccountPlus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountPlus)
+        * StartDate
+        * GameHeroStandingsPlusBackfilled
+        * GameHeroEnemyHeroChecklistBackfilled
+        * FreeTrialConsumed
+        * HasPaidActivation
+        * SubscriptionWillExpire
+        * PrepaidTimeStart
+        * PrepaidTimeBalance
+        * NextPaymentDate
+        * SteamAgreementID
     11. [GamePartnerAccountPermissions](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GamePartnerAccountPermissions)
     12. [GameSessionData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameSessionData)
         * LastLoggedOut
@@ -54,7 +118,26 @@
         * MatchID
         * Comment
     20. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+        * MatchID
+        * Target
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
     21. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+        * MatchID
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
     22. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
     23. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     24. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
@@ -84,7 +167,22 @@
     32. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
+        * TeamGID
+        * BuyIn
+        * SkillLevel
+        * StreakAfter
     2. [AutomatedTourneyPlayerStats](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayerStats)
+        * SeasonTrophyID
+        * SkillLevel
+        * TimesLostInQuarterfinal
+        * TimesLostInSemifinal
+        * TimesLostInFinal
+        * TimesWon
+        * TimesUnusualChampion
+        * TimesByeAndLost
+        * TimesByeAndWon
+        * TotalGamesWon
+        * Score
 3. [Chat](https://steamcommunity.com/my/gcpd/570?category=Chat)
     1. [PrivateChatChannelAudit](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelAudit)
         * PrivateChatID
@@ -257,13 +355,40 @@
         * Percentile
 7. [Guilds](https://steamcommunity.com/my/gcpd/570?category=Guilds)
     1. [GuildAudit](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildAudit)
+        * GuildID
+        * Name
+        * EventIndex
+        * Timestamp
+        * Created
+        * SetRole
+        * InviteSend
+        * InviteCanceled
+        * DetailsUpdated
+        * MessageUpdated
+        * LogoUpdated
+        * NameUpdated
+        * Requestor
+        * Target
+        * ReferenceDataA
+        * ReferenceDataB
     2. [GuildInvites](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildInvites)
     3. [GuildMembers](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildMembers)
 8. [History](https://steamcommunity.com/my/gcpd/570?category=History)
     1. [BetaParticipation](https://steamcommunity.com/my/gcpd/570?category=History&tab=BetaParticipation)
+        * Beta
+        * TournamentPlayer
+        * TournamentAdmin
+        * 3rdPartyMatchHistory
+        * ProfilePrivate
     2. [MatchSpectatorIDs](https://steamcommunity.com/my/gcpd/570?category=History&tab=MatchSpectatorIDs)
+        * MatchID
+        * IsSpectator
+        * PartyAccountID
     3. [PlayerBroadcasterHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerBroadcasterHistory)
     4. [PlayerCoachHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachHistory)
+        * MatchID
+        * Team
+        * PartyID
 9. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
     1. [AccountLimitedItemPurchase](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AccountLimitedItemPurchase)
         * ItemDefIndex
@@ -343,20 +468,107 @@
         * Slot
         * Team
     4. [MatchCaptains](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchCaptains)
+        * MatchID
+        * RadiantCaptain
+        * DireCaptain
     5. [MatchVotes](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchVotes)
+        * MatchID
+        * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
+        * MatchID
+        * Duration
+        * StartTime
+        * LeagueID
+        * GameMode
+        * MatchOutcome
+        * PlayerSlot
+        * Party
+        * Hero
+        * Item1
+        * Item2
+        * Item3
+        * Item4
+        * Item5
+        * Item6
+        * Item7
+        * Item8
+        * Item9
+        * Level
+        * Kills
+        * Deaths
+        * Assists
+        * LastHits
+        * Denies
+        * GoldPerMin
+        * XPPerMin
+        * Solo Queue
+        * Uncalibrated
+        * Low Priority
+        * New Player
+        * Battle Pass
+        * Seasonal Rank
+        * Plus
+        * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
 12. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
     1. [PlayerChallenges](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallenges)
+        * EventID
+        * SlotID
+        * ChallengeType
+        * IntParam0
+        * IntParam1
+        * CreatedTime
+        * Completed
+        * SequenceID
+        * Tier
+        * Flags
+        * Attempts
+        * CompleteLimit
+        * QuestRank
+        * MaxQuestRank
     2. [PlayerChallengesAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAudit)
     3. [PlayerChallengesAuditV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV2)
     4. [PlayerChallengesAuditV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV3)
+        * Rerolled
+        * Completed
+        * Attempted
+        * SlotID
+        * EventID
+        * Timestamp
+        * TemplateID
+        * InstanceID
+        * CreatedTime
+        * Completed
+        * Tier
+        * Attempts
+        * CompleteLimit
     5. [PlayerChallengesV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesV2)
     6. [PlayerChallengesV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesV3)
+        * EventID
+        * SlotID
+        * TemplateID
+        * InstanceID
+        * Hero
+        * CreatedTime
+        * Completed
+        * SequenceID
+        * Tier
+        * Flags
+        * Attempts
+        * QuestRank
+        * MaxQuestRank
     7. [PlayerQuestProgress](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgress)
+        * QuestID
+        * ChallengeID
+        * TimeCompleted
+        * Attempts
+        * Hero
+        * ChallengeType
+        * QuestRank
+        * MaxQuestRank
     8. [PlayerQuestProgressV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgressV2)
     9. [PlusPrepaidExpirationAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlusPrepaidExpirationAudit)
         * ActualExpirationDate
@@ -377,6 +589,11 @@
         * CurrHeroGames
         * PrevHeroGames
     2. [AssassinMinigameDrops](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AssassinMinigameDrops)
+        * WinDropPoints
+        * WinDropGoal
+        * LoseDropPoints
+        * LoseDropGoal
+        * DropsTriggered
     3. [CustomGameLoading](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoading)
         * LobbyID
         * StartType
@@ -390,14 +607,51 @@
         * SignonStates
         * Reason
     5. [DownloadedReplayViews](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=DownloadedReplayViews)
+        * TimeRecorded
+        * MatchID
+        * Normal
+        * Highlights
     6. [GameHeroFavorites](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroFavorites)
+        * Hero
     7. [GameHeroStandings](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandings)
+        * Hero
+        * Wins
+        * Losses
+        * WinStreak
+        * BestWinStreak
+        * NumStatsSamples
+        * AverageKills
+        * AverageDeaths
+        * AverageAssists
+        * AvgGPM
+        * AvgXPM
+        * BestKills
+        * BestGPM
+        * BestXPM
+        * NumLHDSamples
+        * AvgLastHits
+        * AvgDenies
     8. [GameHeroStandingsPlus](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandingsPlus)
+        * Hero
+        * WinsWith
+        * LossesWith
+        * WinsAgainst
+        * LossesAgainst
+        * NetworthPeak
+        * LastHitPeak
+        * DenyPeak
+        * DamagePeak
+        * LongestGame
+        * HealingPeak
     9. [HOFFeaturedPlayers](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=HOFFeaturedPlayers)
     10. [InternationalStationRandomDropTracker](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=InternationalStationRandomDropTracker)
     11. [LastHitChallengeHighScore](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=LastHitChallengeHighScore)
+        * Hero
+        * Score
     12. [ManualTrophyGrant](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=ManualTrophyGrant)
     13. [MapLocationState](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=MapLocationState)
+        * LocationID
+        * Completed
     14. [PerfectWorldRandomChanceAudit](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=PerfectWorldRandomChanceAudit)
     15. [PlayerCustomGamesPlayed](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=PlayerCustomGamesPlayed)
         * CustomGameID
@@ -459,8 +713,22 @@
         * NewFails
 15. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
     1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
+        * Timestamp
+        * TeamID
+        * Create
+        * Edit
+        * AddMember
+        * RemoveMember
+        * ChangeAdmin
+        * BecomeSub
+        * SetPro
+        * SetLocked
+        * Data1
+        * Data2
     2. [TeamCreationTime](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamCreationTime)
     3. [TeamMembership](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamMembership)
+        * TeamID
+        * Timestamp
     4. [TeamRegistration](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistration)
     5. [TeamRegistrationAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationAudit)
     6. [TeamRegistrationInvite](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationInvite)
