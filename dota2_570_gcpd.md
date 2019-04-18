@@ -297,8 +297,6 @@
         * Timestamp
         * PointsSpent
     17. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
-        * EventID
-        * Level
     18. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
     19. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
         * MatchID
