@@ -355,22 +355,6 @@
         * Percentile
 7. [Guilds](https://steamcommunity.com/my/gcpd/570?category=Guilds)
     1. [GuildAudit](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildAudit)
-        * GuildID
-        * Name
-        * EventIndex
-        * Timestamp
-        * Created
-        * SetRole
-        * InviteSend
-        * InviteCanceled
-        * DetailsUpdated
-        * MessageUpdated
-        * LogoUpdated
-        * NameUpdated
-        * Requestor
-        * Target
-        * ReferenceDataA
-        * ReferenceDataB
     2. [GuildInvites](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildInvites)
     3. [GuildMembers](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildMembers)
 8. [History](https://steamcommunity.com/my/gcpd/570?category=History)
@@ -472,8 +456,6 @@
         * RadiantCaptain
         * DireCaptain
     5. [MatchVotes](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchVotes)
-        * MatchID
-        * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
         * MatchID
