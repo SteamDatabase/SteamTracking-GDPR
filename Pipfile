@@ -1,17 +1,15 @@
 [[source]]
-
 name = "pypi"
+url = "https://pypi.org/simple"
 verify_ssl = true
-url = "https://pypi.python.org/simple"
-
 
 [dev-packages]
-
 ipython = "*"
 
-
 [packages]
-
-steam = "*"
-requests-html = "*"
 pyppeteer = "*"
+requests-html = "*"
+steam = {git = "https://github.com/ValvePython/steam"}
+
+[requires]
+python_version = "3.6"

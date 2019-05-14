@@ -39,28 +39,10 @@ def save_cookies(inst):
         LOG.exception(exp)
         return
 
-
 def login():
-    username = input("Steam Username:")
-    password = getpass()
-
-    twofactor_code = email_code = captch = None
-
-    steam_auth = wa.WebAuth(username, password)
-
-    while not steam_auth.complete:
-        try:
-            steam_auth.login(twofactor_code=twofactor_code,
-                             email_code=email_code,
-                             captcha=captch,
-                             )
-        except wa.CaptchaRequired:
-            LOG.info("Captch URL: %s", steam_auth.captcha_url)
-            captch = input("Captch code:")
-        except wa.EmailCodeRequired:
-            email_code = input("Email code:")
-        except wa.TwoFactorCodeRequired:
-            twofactor_code = input("2FA code:")
+    username = input("Steam Username: ")
+    steam_auth = wa.WebAuth(username)
+    steam_auth.cli_login()
 
     save_cookies(steam_auth.session.cookies)
     return steam_auth.session.cookies
