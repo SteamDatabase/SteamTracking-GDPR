@@ -13,7 +13,8 @@
         * ParamInt1
         * ParamInt2
         * ParamString
-    6. [FriendRecruits](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FriendRecruits)
+    6. [FilteredPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FilteredPlayers)
+    7. [FriendRecruits](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FriendRecruits)
         * RecruiterAccount
         * TraineeAccount
         * Accepted
@@ -21,13 +22,13 @@
         * Declined
         * HasOtherRecruiter
         * LevelsEarned
-    7. [GACFlagsAudit](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GACFlagsAudit)
-    8. [GameAccount](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccount)
+    8. [GACFlagsAudit](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GACFlagsAudit)
+    9. [GameAccount](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccount)
         * AdditionalBackpackSlots
         * Flags
         * TradeBanExpiration
         * NumGiftsGiven
-    9. [GameAccountClient](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountClient)
+    10. [GameAccountClient](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountClient)
         * Wins
         * Losses
         * SoloCalibrationGamesLeft
@@ -82,7 +83,7 @@
         * RecentWinTime2
         * RecentWinTime1
         * FavoriteTeamPacked
-    10. [GameAccountPlus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountPlus)
+    11. [GameAccountPlus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccountPlus)
         * StartDate
         * GameHeroStandingsPlusBackfilled
         * GameHeroEnemyHeroChecklistBackfilled
@@ -93,8 +94,8 @@
         * PrepaidTimeBalance
         * NextPaymentDate
         * SteamAgreementID
-    11. [GamePartnerAccountPermissions](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GamePartnerAccountPermissions)
-    12. [GameSessionData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameSessionData)
+    12. [GamePartnerAccountPermissions](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GamePartnerAccountPermissions)
+    13. [GameSessionData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameSessionData)
         * LastLoggedOut
         * TimePlayedConsecutively
         * LastLoggedIn
@@ -108,16 +109,16 @@
         * TimePlayedSinceLastDrop
         * GamesPlayedSinceLastDropCrate
         * TimePlayedSinceLastDropCrate
-    13. [H264Unsupported](https://steamcommunity.com/my/gcpd/570?category=Account&tab=H264Unsupported)
-    14. [InternationalRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalRegisteredUsers)
-    15. [InternationalUserData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalUserData)
-    16. [LeaderboardSoloMMRPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeaderboardSoloMMRPlayer)
-    17. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
-    18. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
-    19. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
+    14. [H264Unsupported](https://steamcommunity.com/my/gcpd/570?category=Account&tab=H264Unsupported)
+    15. [InternationalRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalRegisteredUsers)
+    16. [InternationalUserData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalUserData)
+    17. [LeaderboardSoloMMRPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeaderboardSoloMMRPlayer)
+    18. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
+    19. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
+    20. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
         * MatchID
         * Comment
-    20. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+    21. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
         * MatchID
         * Target
         * Date
@@ -128,7 +129,7 @@
         * Teaching
         * Friendly
         * Forgiving
-    21. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+    22. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
         * Communication Abuse
@@ -138,21 +139,23 @@
         * Teaching
         * Friendly
         * Forgiving
-    22. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
-    23. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
-    24. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    25. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    26. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
-    27. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    23. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
+    24. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
+    25. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
+    26. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
+    27. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
+    28. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    29. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
+    30. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
         * FeaturedHero2
         * FeaturedHero3
-    28. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+    31. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
         * BackgroundItem
-    29. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+    32. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -162,9 +165,10 @@
         * Emoticon
         * Team
         * Value
-    30. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    31. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    32. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    33. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    34. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    35. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    36. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
@@ -322,6 +326,7 @@
         * Period
         * ResourcesUsed
         * ResourcesSpent
+        * AuditData
     24. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
         * ResourceType
         * ResourcesMax
@@ -389,6 +394,7 @@
         * MatchID
         * Team
         * PartyID
+    5. [PlayerCoachTeammateRating](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachTeammateRating)
 9. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
     1. [AccountLimitedItemPurchase](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AccountLimitedItemPurchase)
         * ItemDefIndex
