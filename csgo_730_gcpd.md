@@ -26,7 +26,8 @@
     * Player Name
     * Score
     * ★
-5. [Latency](https://steamcommunity.com/my/gcpd/730?tab=latency)
+5. [Favorite Events](https://steamcommunity.com/my/gcpd/730?tab=eventschedulefavorites)
+6. [Latency](https://steamcommunity.com/my/gcpd/730?tab=latency)
     * Country Code
     * Game IP Address
     * Game Server Region
@@ -34,17 +35,17 @@
     * Latitude
     * Longitude
     * Ping Measurement
-6. [Leaderboards](https://steamcommunity.com/my/gcpd/730?tab=leaderboards)
+7. [Leaderboards](https://steamcommunity.com/my/gcpd/730?tab=leaderboards)
     * Leaderboard
     * Score
     * Updated
-7. [Loadout](https://steamcommunity.com/my/gcpd/730?tab=loadout)
+8. [Loadout](https://steamcommunity.com/my/gcpd/730?tab=loadout)
     * Equipped Item
     * Item ID
     * Loadout Slot
     * Team
-8. [Major Pick'Em](https://steamcommunity.com/my/gcpd/730?tab=majors)
-9. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
+9. [Major Pick'Em](https://steamcommunity.com/my/gcpd/730?tab=majors)
+10. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
     * Last Match
     * Last Win
     * Losses
@@ -55,13 +56,13 @@
     * Squad Wins
     * Ties
     * Wins
-10. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)
-11. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
-12. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
+11. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)
+12. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
+13. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
     * Prime Account Status
     * Time
-13. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
+14. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
     * Report Details
     * Reported Player
     * Time
-14. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
+15. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
