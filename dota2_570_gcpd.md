@@ -381,20 +381,9 @@
     3. [GuildMembers](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildMembers)
 8. [History](https://steamcommunity.com/my/gcpd/570?category=History)
     1. [BetaParticipation](https://steamcommunity.com/my/gcpd/570?category=History&tab=BetaParticipation)
-        * Beta
-        * TournamentPlayer
-        * TournamentAdmin
-        * 3rdPartyMatchHistory
-        * ProfilePrivate
     2. [MatchSpectatorIDs](https://steamcommunity.com/my/gcpd/570?category=History&tab=MatchSpectatorIDs)
-        * MatchID
-        * IsSpectator
-        * PartyAccountID
     3. [PlayerBroadcasterHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerBroadcasterHistory)
     4. [PlayerCoachHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachHistory)
-        * MatchID
-        * Team
-        * PartyID
     5. [PlayerCoachTeammateRating](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachTeammateRating)
 9. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
     1. [AccountLimitedItemPurchase](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AccountLimitedItemPurchase)
@@ -483,40 +472,6 @@
         * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
-        * MatchID
-        * Duration
-        * StartTime
-        * LeagueID
-        * GameMode
-        * MatchOutcome
-        * PlayerSlot
-        * Party
-        * Hero
-        * Item1
-        * Item2
-        * Item3
-        * Item4
-        * Item5
-        * Item6
-        * Item7
-        * Item8
-        * Item9
-        * Level
-        * Kills
-        * Deaths
-        * Assists
-        * LastHits
-        * Denies
-        * GoldPerMin
-        * XPPerMin
-        * Solo Queue
-        * Uncalibrated
-        * Low Priority
-        * New Player
-        * Battle Pass
-        * Seasonal Rank
-        * Plus
-        * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
