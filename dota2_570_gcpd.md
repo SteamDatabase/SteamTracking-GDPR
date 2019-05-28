@@ -433,14 +433,6 @@
         * Item
         * GrantReason
     11. [ItemTournamentPassport](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemTournamentPassport)
-        * LeagueID
-        * ItemID
-        * OriginalPurchaser
-        * PassportsBought
-        * Version
-        * DefIndex
-        * Item
-        * RewardFlags
     12. [ManualItemGrantV1](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ManualItemGrantV1)
     13. [RedeemCodesTable](https://steamcommunity.com/my/gcpd/570?category=Items&tab=RedeemCodesTable)
     14. [TFTransaction](https://steamcommunity.com/my/gcpd/570?category=Items&tab=TFTransaction)
@@ -522,20 +514,6 @@
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
 12. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
     1. [PlayerChallenges](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallenges)
-        * EventID
-        * SlotID
-        * ChallengeType
-        * IntParam0
-        * IntParam1
-        * CreatedTime
-        * Completed
-        * SequenceID
-        * Tier
-        * Flags
-        * Attempts
-        * CompleteLimit
-        * QuestRank
-        * MaxQuestRank
     2. [PlayerChallengesAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAudit)
     3. [PlayerChallengesAuditV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV2)
     4. [PlayerChallengesAuditV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV3)
@@ -608,11 +586,6 @@
         * AverageDistanceToListenServer
         * MaxDistanceToListenServer
     4. [CustomGameLoadingPlayer](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoadingPlayer)
-        * LobbyID
-        * LoadingDuration
-        * DistanceToListenServer
-        * SignonStates
-        * Reason
     5. [DownloadedReplayViews](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=DownloadedReplayViews)
         * TimeRecorded
         * MatchID
