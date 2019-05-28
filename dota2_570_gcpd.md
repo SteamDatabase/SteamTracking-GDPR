@@ -475,9 +475,6 @@
         * Slot
         * Team
     4. [MatchCaptains](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchCaptains)
-        * MatchID
-        * RadiantCaptain
-        * DireCaptain
     5. [MatchVotes](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchVotes)
         * MatchID
         * Vote
