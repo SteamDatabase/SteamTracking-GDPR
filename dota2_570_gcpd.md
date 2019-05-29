@@ -15,13 +15,6 @@
         * ParamString
     6. [FilteredPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FilteredPlayers)
     7. [FriendRecruits](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FriendRecruits)
-        * RecruiterAccount
-        * TraineeAccount
-        * Accepted
-        * Pending
-        * Declined
-        * HasOtherRecruiter
-        * LevelsEarned
     8. [GACFlagsAudit](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GACFlagsAudit)
     9. [GameAccount](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccount)
         * AdditionalBackpackSlots
@@ -271,17 +264,6 @@
         * TimeStamp
     9. [EventAllStarVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAllStarVotes)
     10. [EventAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAudit)
-        * EventID
-        * Timestamp
-        * AuditAction
-        * NormalPoints
-        * PremiumPoints
-        * Action
-        * FieldID
-        * StartValue
-        * NewValue
-        * Data
-        * Flags
     11. [EventManualActionGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualActionGrant)
     12. [EventManualPointGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualPointGrant)
     13. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
@@ -289,18 +271,8 @@
         * ActionID
         * TimesGranted
     14. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
-        * EventID
-        * PointsBalance
-        * PointsTotal
-        * PremiumBalance
-        * PremiumTotal
-        * TradeBanTime
-        * Owned
     15. [EventPointsHeld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsHeld)
     16. [EventPointsPeriodic](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsPeriodic)
-        * EventID
-        * Timestamp
-        * PointsSpent
     17. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
         * EventID
         * Level
