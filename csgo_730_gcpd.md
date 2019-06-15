@@ -47,7 +47,6 @@
 9. [Major Pick'Em](https://steamcommunity.com/my/gcpd/730?tab=majors)
 10. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
     * Last Match
-    * Last Win
     * Losses
     * Matches Played
     * Matchmaking Mode
