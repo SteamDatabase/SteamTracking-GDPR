@@ -626,6 +626,23 @@
     6. [GameHeroFavorites](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroFavorites)
         * Hero
     7. [GameHeroStandings](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandings)
+        * Hero
+        * Wins
+        * Losses
+        * WinStreak
+        * BestWinStreak
+        * NumStatsSamples
+        * AverageKills
+        * AverageDeaths
+        * AverageAssists
+        * AvgGPM
+        * AvgXPM
+        * BestKills
+        * BestGPM
+        * BestXPM
+        * NumLHDSamples
+        * AvgLastHits
+        * AvgDenies
     8. [GameHeroStandingsPlus](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandingsPlus)
         * Hero
         * WinsWith
