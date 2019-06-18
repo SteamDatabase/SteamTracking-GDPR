@@ -124,6 +124,16 @@
         * Comment
     23. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
     24. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+        * MatchID
+        * Target
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
     25. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
@@ -470,6 +480,9 @@
         * Slot
         * Team
     4. [MatchCaptains](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchCaptains)
+        * MatchID
+        * RadiantCaptain
+        * DireCaptain
     5. [MatchVotes](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchVotes)
         * MatchID
         * Vote
