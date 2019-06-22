@@ -113,17 +113,18 @@
     15. [InternationalRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalRegisteredUsers)
     16. [InternationalUserData](https://steamcommunity.com/my/gcpd/570?category=Account&tab=InternationalUserData)
     17. [LeaderboardSoloMMRPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeaderboardSoloMMRPlayer)
-    18. [MVPVotesByPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesByPlayer)
+    18. [LeagueEventAttendee](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeagueEventAttendee)
+    19. [MVPVotesByPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesByPlayer)
         * VoterAccountID
         * MatchID
-    19. [MVPVotesForPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesForPlayer)
-    20. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
-    21. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
-    22. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
+    20. [MVPVotesForPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesForPlayer)
+    21. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
+    22. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
+    23. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
         * MatchID
         * Comment
-    23. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
-    24. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+    24. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
+    25. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
         * MatchID
         * Target
         * Date
@@ -134,7 +135,7 @@
         * Teaching
         * Friendly
         * Forgiving
-    25. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+    26. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
         * Communication Abuse
@@ -144,23 +145,23 @@
         * Teaching
         * Friendly
         * Forgiving
-    26. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
-    27. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
-    28. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    29. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
-    30. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
-    31. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    32. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
-    33. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    27. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
+    28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
+    29. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
+    30. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
+    31. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
+    32. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    33. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
+    34. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
         * FeaturedHero2
         * FeaturedHero3
-    34. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+    35. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
         * BackgroundItem
-    35. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+    36. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -170,12 +171,12 @@
         * Emoticon
         * Team
         * Value
-    36. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    37. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    38. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
-    39. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
-    40. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
-    41. [UnderlordsCDKeys](https://steamcommunity.com/my/gcpd/570?category=Account&tab=UnderlordsCDKeys)
+    37. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    38. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    39. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    40. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
+    41. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
+    42. [UnderlordsCDKeys](https://steamcommunity.com/my/gcpd/570?category=Account&tab=UnderlordsCDKeys)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
