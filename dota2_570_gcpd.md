@@ -211,6 +211,10 @@
         * CreationTimestamp
 4. [Compendium](https://steamcommunity.com/my/gcpd/570?category=Compendium)
     1. [CompendiumInGamePredictionSubmittedValues](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumInGamePredictionSubmittedValues)
+        * MatchID
+        * SelectionIndex
+        * SelectionValue
+        * LeagueID
     2. [CompendiumSelection](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumSelection)
         * SelectionIndex
         * Selection
@@ -253,6 +257,10 @@
         * ItemType
         * Count
     5. [CavernCrawlRegisterVictoryAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRegisterVictoryAudit)
+        * EventID
+        * Hero
+        * MatchID
+        * Timestamp
     6. [CavernCrawlRevealedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoom)
         * EventID
         * RoomID
