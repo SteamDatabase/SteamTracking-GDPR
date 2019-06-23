@@ -116,6 +116,7 @@ else:
 dd_games = [
     ('570', 'dota2', 'Dota 2'),
     ('583950', 'artifact', 'Artifact'),
+    ('1046930', 'dac', 'Dota Underlords'),
 ]
 
 for appid, game_title_short, game_title in dd_games:
