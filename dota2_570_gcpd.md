@@ -247,6 +247,11 @@
         * TimeStamp
         * RewardReceived
     3. [CavernCrawlCompletedPath](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlCompletedPath)
+        * EventID
+        * PathID
+        * ChallengeType
+        * MatchID
+        * TimeStamp
     4. [CavernCrawlItem](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlItem)
         * EventID
         * ItemType
@@ -319,6 +324,9 @@
         * RankWager
     21. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
     22. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
+        * ResourceType
+        * Timestamp
+        * ResourcesUsed
     23. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
         * Sequence
         * ResourceType
