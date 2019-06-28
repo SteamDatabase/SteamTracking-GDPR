@@ -410,13 +410,6 @@
     2. [AdditionalEquip](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AdditionalEquip)
     3. [AdditionalEquipAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AdditionalEquipAudit)
     4. [CrateNoDupeState](https://steamcommunity.com/my/gcpd/570?category=Items&tab=CrateNoDupeState)
-        * CrateSeries
-        * LootList
-        * ItemIndex
-        * EscalationLevel
-        * EscalationLevel1
-        * EscalationLevel2
-        * EscalationLevel3
     5. [EconOwnershipAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EconOwnershipAudit)
     6. [EquipInstance](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EquipInstance)
         * ClassID
