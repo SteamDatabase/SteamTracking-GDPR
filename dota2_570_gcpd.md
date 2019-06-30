@@ -125,7 +125,26 @@
         * Comment
     24. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
     25. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+        * MatchID
+        * Target
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
     26. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+        * MatchID
+        * Date
+        * Communication Abuse
+        * Ability Abuse
+        * Feeding
+        * Leadership
+        * Teaching
+        * Friendly
+        * Forgiving
     27. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
     28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     29. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
@@ -165,6 +184,17 @@
         * SkillLevel
         * StreakAfter
     2. [AutomatedTourneyPlayerStats](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayerStats)
+        * SeasonTrophyID
+        * SkillLevel
+        * TimesLostInQuarterfinal
+        * TimesLostInSemifinal
+        * TimesLostInFinal
+        * TimesWon
+        * TimesUnusualChampion
+        * TimesByeAndLost
+        * TimesByeAndWon
+        * TotalGamesWon
+        * Score
 3. [Chat](https://steamcommunity.com/my/gcpd/570?category=Chat)
     1. [PrivateChatChannelAudit](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelAudit)
         * PrivateChatID
@@ -697,8 +727,22 @@
         * NewFails
 15. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
     1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
+        * Timestamp
+        * TeamID
+        * Create
+        * Edit
+        * AddMember
+        * RemoveMember
+        * ChangeAdmin
+        * BecomeSub
+        * SetPro
+        * SetLocked
+        * Data1
+        * Data2
     2. [TeamCreationTime](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamCreationTime)
     3. [TeamMembership](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamMembership)
+        * TeamID
+        * Timestamp
     4. [TeamRegistration](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistration)
     5. [TeamRegistrationAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationAudit)
     6. [TeamRegistrationInvite](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamRegistrationInvite)
