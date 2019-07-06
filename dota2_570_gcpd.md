@@ -603,6 +603,11 @@
         * CurrHeroGames
         * PrevHeroGames
     2. [AssassinMinigameDrops](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AssassinMinigameDrops)
+        * WinDropPoints
+        * WinDropGoal
+        * LoseDropPoints
+        * LoseDropGoal
+        * DropsTriggered
     3. [CustomGameLoading](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoading)
         * LobbyID
         * StartType
