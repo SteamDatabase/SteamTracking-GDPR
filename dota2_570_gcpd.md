@@ -227,6 +227,8 @@
         * ChallengeID
         * CompleteTime
     7. [PassportSelection](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportSelection)
+        * SelectionIndex
+        * Selection
     8. [PassportStampedPlayers](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportStampedPlayers)
         * StampedSteamID
         * LeagueID
@@ -601,11 +603,6 @@
         * CurrHeroGames
         * PrevHeroGames
     2. [AssassinMinigameDrops](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AssassinMinigameDrops)
-        * WinDropPoints
-        * WinDropGoal
-        * LoseDropPoints
-        * LoseDropGoal
-        * DropsTriggered
     3. [CustomGameLoading](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoading)
         * LobbyID
         * StartType
