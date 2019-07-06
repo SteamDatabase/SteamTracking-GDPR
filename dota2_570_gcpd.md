@@ -206,6 +206,9 @@
         * PrivateChatID
         * Admin
     3. [PrivateChatChannels](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannels)
+        * PrivateChatID
+        * Name
+        * CreationTimestamp
 4. [Compendium](https://steamcommunity.com/my/gcpd/570?category=Compendium)
     1. [CompendiumInGamePredictionSubmittedValues](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumInGamePredictionSubmittedValues)
         * MatchID
@@ -224,6 +227,8 @@
         * ChallengeID
         * CompleteTime
     7. [PassportSelection](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportSelection)
+        * SelectionIndex
+        * Selection
     8. [PassportStampedPlayers](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportStampedPlayers)
         * StampedSteamID
         * LeagueID
@@ -300,9 +305,6 @@
         * Owned
     15. [EventPointsHeld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsHeld)
     16. [EventPointsPeriodic](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsPeriodic)
-        * EventID
-        * Timestamp
-        * PointsSpent
     17. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
         * EventID
         * Level
@@ -311,6 +313,12 @@
         * MatchID
         * Player
     20. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
+        * MatchID
+        * MaxWager
+        * Wager
+        * Winnings
+        * TokenItemID
+        * RankWager
     21. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
     22. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
         * ResourceType
@@ -479,40 +487,6 @@
         * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
-        * MatchID
-        * Duration
-        * StartTime
-        * LeagueID
-        * GameMode
-        * MatchOutcome
-        * PlayerSlot
-        * Party
-        * Hero
-        * Item1
-        * Item2
-        * Item3
-        * Item4
-        * Item5
-        * Item6
-        * Item7
-        * Item8
-        * Item9
-        * Level
-        * Kills
-        * Deaths
-        * Assists
-        * LastHits
-        * Denies
-        * GoldPerMin
-        * XPPerMin
-        * Solo Queue
-        * Uncalibrated
-        * Low Priority
-        * New Player
-        * Battle Pass
-        * Seasonal Rank
-        * Plus
-        * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
@@ -592,11 +566,6 @@
         * CurrHeroGames
         * PrevHeroGames
     2. [AssassinMinigameDrops](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AssassinMinigameDrops)
-        * WinDropPoints
-        * WinDropGoal
-        * LoseDropPoints
-        * LoseDropGoal
-        * DropsTriggered
     3. [CustomGameLoading](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoading)
         * LobbyID
         * StartType
