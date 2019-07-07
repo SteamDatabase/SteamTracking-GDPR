@@ -197,6 +197,11 @@
         * Score
 3. [Chat](https://steamcommunity.com/my/gcpd/570?category=Chat)
     1. [PrivateChatChannelAudit](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelAudit)
+        * PrivateChatID
+        * Timestamp
+        * Action
+        * Account1
+        * Account2
     2. [PrivateChatChannelMembers](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannelMembers)
         * PrivateChatID
         * Admin
@@ -225,6 +230,9 @@
         * SelectionIndex
         * Selection
     8. [PassportStampedPlayers](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportStampedPlayers)
+        * StampedSteamID
+        * LeagueID
+        * StampLevel
     9. [PassportVote](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=PassportVote)
 5. [Events](https://steamcommunity.com/my/gcpd/570?category=Events)
     1. [ArcanaVotesAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ArcanaVotesAudit)
@@ -305,6 +313,8 @@
         * Level
     18. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
     19. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
+        * MatchID
+        * Player
     20. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
         * MatchID
         * MaxWager
@@ -314,9 +324,24 @@
         * RankWager
     21. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
     22. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
+        * ResourceType
+        * Timestamp
+        * ResourcesUsed
     23. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
+        * Sequence
+        * ResourceType
+        * Timestamp
+        * Period
+        * ResourcesUsed
+        * ResourcesSpent
+        * AuditData
     24. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
+        * ResourceType
+        * ResourcesMax
     25. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
+        * EventID
+        * MatchID
+        * Recipient
     26. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
@@ -452,6 +477,10 @@
     1. [BotPlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=BotPlayerMatchHistory)
     2. [CorporationMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=CorporationMatchHistory)
     3. [InMatchSpectator](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=InMatchSpectator)
+        * MatchID
+        * AccountID
+        * Slot
+        * Team
     4. [MatchCaptains](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchCaptains)
         * MatchID
         * RadiantCaptain
