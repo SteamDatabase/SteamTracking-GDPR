@@ -15,13 +15,6 @@
         * ParamString
     6. [FilteredPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FilteredPlayers)
     7. [FriendRecruits](https://steamcommunity.com/my/gcpd/570?category=Account&tab=FriendRecruits)
-        * RecruiterAccount
-        * TraineeAccount
-        * Accepted
-        * Pending
-        * Declined
-        * HasOtherRecruiter
-        * LevelsEarned
     8. [GACFlagsAudit](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GACFlagsAudit)
     9. [GameAccount](https://steamcommunity.com/my/gcpd/570?category=Account&tab=GameAccount)
         * AdditionalBackpackSlots
@@ -206,9 +199,6 @@
         * PrivateChatID
         * Admin
     3. [PrivateChatChannels](https://steamcommunity.com/my/gcpd/570?category=Chat&tab=PrivateChatChannels)
-        * PrivateChatID
-        * Name
-        * CreationTimestamp
 4. [Compendium](https://steamcommunity.com/my/gcpd/570?category=Compendium)
     1. [CompendiumInGamePredictionSubmittedValues](https://steamcommunity.com/my/gcpd/570?category=Compendium&tab=CompendiumInGamePredictionSubmittedValues)
         * MatchID
@@ -339,9 +329,6 @@
         * ResourceType
         * ResourcesMax
     25. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
-        * EventID
-        * MatchID
-        * Recipient
     26. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
@@ -419,9 +406,6 @@
         * EscalationLevel3
     5. [EconOwnershipAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EconOwnershipAudit)
     6. [EquipInstance](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EquipInstance)
-        * ClassID
-        * SlotID
-        * ItemID
     7. [GiftingHistory](https://steamcommunity.com/my/gcpd/570?category=Items&tab=GiftingHistory)
         * Timestamp
         * ItemID
@@ -490,40 +474,6 @@
         * Vote
     6. [MatchmakingResultPlayer](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchmakingResultPlayer)
     7. [PlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistory)
-        * MatchID
-        * Duration
-        * StartTime
-        * LeagueID
-        * GameMode
-        * MatchOutcome
-        * PlayerSlot
-        * Party
-        * Hero
-        * Item1
-        * Item2
-        * Item3
-        * Item4
-        * Item5
-        * Item6
-        * Item7
-        * Item8
-        * Item9
-        * Level
-        * Kills
-        * Deaths
-        * Assists
-        * LastHits
-        * Denies
-        * GoldPerMin
-        * XPPerMin
-        * Solo Queue
-        * Uncalibrated
-        * Low Priority
-        * New Player
-        * Battle Pass
-        * Seasonal Rank
-        * Plus
-        * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
@@ -615,11 +565,6 @@
         * AverageDistanceToListenServer
         * MaxDistanceToListenServer
     4. [CustomGameLoadingPlayer](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=CustomGameLoadingPlayer)
-        * LobbyID
-        * LoadingDuration
-        * DistanceToListenServer
-        * SignonStates
-        * Reason
     5. [DownloadedReplayViews](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=DownloadedReplayViews)
         * TimeRecorded
         * MatchID
@@ -719,12 +664,6 @@
         * ID
         * ReferenceData
     21. [VictoryPredictionAudit](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=VictoryPredictionAudit)
-        * MatchID
-        * ItemID
-        * OriginalScore
-        * NewScore
-        * OriginalFails
-        * NewFails
 15. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
     1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
         * Timestamp
