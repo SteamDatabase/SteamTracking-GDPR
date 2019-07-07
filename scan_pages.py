@@ -158,6 +158,8 @@ for appid, game_title_short, game_title in dd_games:
             if resp.html.find('.profile_ban_status'):
                 LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
                 columns = []
+            elif resp.status_code != 200:
+                columns = []
             else:
                 columns = list(map(lambda x: x.text, resp.html.find('.generic_kv_table th')))
 
@@ -242,6 +244,8 @@ for appid, game_title_short, game_title in tab_games:
             # if we still failed to load, error out
             if resp.html.find('.profile_ban_status'):
                 LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
+                columns = []
+            elif resp.status_code != 200:
                 columns = []
             else:
                 columns = sorted(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
