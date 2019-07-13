@@ -123,7 +123,7 @@ for appid, game_title_short, game_title in dd_games:
     LOG.info("Scanning %s pages...", game_title)
 
     try:
-        prev_pages = pickle.load(open('.gcpd_' % appid, 'rb'))
+        prev_pages = pickle.load(open(f'.gcpd_{appid}', 'rb'))
     except Exception as exp:
         prev_pages = {}
         LOG.error("Failed to load previous %s gcpd data", game_title)
