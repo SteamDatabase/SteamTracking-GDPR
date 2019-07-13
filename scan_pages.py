@@ -126,7 +126,7 @@ for appid, game_title_short, game_title in dd_games:
         prev_pages = pickle.load(open('.gcpd_' % appid, 'rb'))
     except Exception as exp:
         prev_pages = {}
-        LOG.info("Failed to load previous %s gcpd data", game_title)
+        LOG.error("Failed to load previous %s gcpd data", game_title)
     #   LOG.exception(exp)
 
     url = f'https://steamcommunity.com/profiles/{steamid}/gcpd/{appid}'
@@ -136,7 +136,7 @@ for appid, game_title_short, game_title in dd_games:
     resp = web.get(url)
 
     if resp.status_code != 200:
-        LOG.info("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
+        LOG.error("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
     else:
         pages = {}
 
@@ -154,17 +154,13 @@ for appid, game_title_short, game_title in dd_games:
 
                 break
 
+            columns = prev_pages.get((category, sub), [])
+
             # if we still failed to load, error out
             if resp.html.find('.profile_ban_status'):
-                LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
-                columns = []
-            elif resp.status_code != 200:
-                columns = []
-            else:
+                LOG.error("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
+            elif resp.status_code == 200:
                 columns = list(map(lambda x: x.text, resp.html.find('.generic_kv_table th')))
-
-            if not columns:
-                columns = prev_pages.get((category, sub), [])
 
             pages.setdefault(category, []).append((sub, columns))
 
@@ -217,13 +213,13 @@ for appid, game_title_short, game_title in tab_games:
         prev_pages = pickle.load(open(f'.gcpd_{appid}', 'rb'))
     except Exception as exp:
         prev_pages = {}
-        LOG.info("Failed to load previous %s gcpd data", game_title)
+        LOG.error("Failed to load previous %s gcpd data", game_title)
 #       LOG.exception(exp)
 
     resp = web.get(url)
 
     if resp.status_code != 200:
-        LOG.info("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
+        LOG.error("Failed to load %s gcpd page. HTTP Code: %d", game_title, resp.status_code)
     else:
         pages = {}
 
@@ -241,17 +237,13 @@ for appid, game_title_short, game_title in tab_games:
 
                 break
 
+            columns = prev_pages.get((tab_name, tab_id), [])
+
             # if we still failed to load, error out
             if resp.html.find('.profile_ban_status'):
-                LOG.info("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
-                columns = []
-            elif resp.status_code != 200:
-                columns = []
-            else:
+                LOG.error("Failed after %s tries: %s", c+1, resp.html.find('.profile_ban_status', first=True).text)
+            elif resp.status_code == 200:
                 columns = sorted(set(map(lambda x: x.text, resp.html.find('.generic_kv_table th'))))
-
-            if not columns:
-                columns = prev_pages.get((tab_name, tab_id), [])
 
             pages[(tab_name, tab_id)] = columns
 
