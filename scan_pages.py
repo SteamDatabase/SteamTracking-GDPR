@@ -127,7 +127,7 @@ for appid, game_title_short, game_title in dd_games:
     except Exception as exp:
         prev_pages = {}
         LOG.error("Failed to load previous %s gcpd data", game_title)
-    #   LOG.exception(exp)
+        LOG.exception(exp)
 
     url = f'https://steamcommunity.com/profiles/{steamid}/gcpd/{appid}'
     my_url = f'https://steamcommunity.com/my/gcpd/{appid}'
@@ -214,7 +214,7 @@ for appid, game_title_short, game_title in tab_games:
     except Exception as exp:
         prev_pages = {}
         LOG.error("Failed to load previous %s gcpd data", game_title)
-#       LOG.exception(exp)
+        LOG.exception(exp)
 
     resp = web.get(url)
 
