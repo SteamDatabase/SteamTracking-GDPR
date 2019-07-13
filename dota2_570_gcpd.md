@@ -253,10 +253,11 @@
         * MatchID
         * TimeStamp
     4. [CavernCrawlItem](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlItem)
-        * EventID
-        * ItemType
-        * Count
     5. [CavernCrawlRegisterVictoryAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRegisterVictoryAudit)
+        * EventID
+        * Hero
+        * MatchID
+        * Timestamp
     6. [CavernCrawlRevealedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoom)
         * EventID
         * RoomID
@@ -289,6 +290,13 @@
     12. [EventManualPointGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualPointGrant)
     13. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
     14. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
+        * EventID
+        * PointsBalance
+        * PointsTotal
+        * PremiumBalance
+        * PremiumTotal
+        * TradeBanTime
+        * Owned
     15. [EventPointsHeld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsHeld)
     16. [EventPointsPeriodic](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsPeriodic)
         * EventID
@@ -325,9 +333,6 @@
         * ResourceType
         * ResourcesMax
     25. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
-        * EventID
-        * MatchID
-        * Recipient
     26. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
@@ -405,9 +410,6 @@
         * EscalationLevel3
     5. [EconOwnershipAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EconOwnershipAudit)
     6. [EquipInstance](https://steamcommunity.com/my/gcpd/570?category=Items&tab=EquipInstance)
-        * ClassID
-        * SlotID
-        * ItemID
     7. [GiftingHistory](https://steamcommunity.com/my/gcpd/570?category=Items&tab=GiftingHistory)
         * Timestamp
         * ItemID
@@ -450,10 +452,6 @@
 10. [Leagues](https://steamcommunity.com/my/gcpd/570?category=Leagues)
     1. [BadgeBinding](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=BadgeBinding)
     2. [BadgePointsAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=BadgePointsAudit)
-        * TrophyID
-        * TrophyLevel
-        * Points
-        * TimeStamp
     3. [CosplayRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=CosplayRegisteredUsers)
     4. [LeagueAdmin](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAdmin)
     5. [LeagueAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAudit)
@@ -561,6 +559,14 @@
         * QuestRank
         * MaxQuestRank
     7. [PlayerQuestProgress](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgress)
+        * QuestID
+        * ChallengeID
+        * TimeCompleted
+        * Attempts
+        * Hero
+        * ChallengeType
+        * QuestRank
+        * MaxQuestRank
     8. [PlayerQuestProgressV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgressV2)
     9. [PlusPrepaidExpirationAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlusPrepaidExpirationAudit)
         * ActualExpirationDate
@@ -624,17 +630,6 @@
         * AvgLastHits
         * AvgDenies
     8. [GameHeroStandingsPlus](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=GameHeroStandingsPlus)
-        * Hero
-        * WinsWith
-        * LossesWith
-        * WinsAgainst
-        * LossesAgainst
-        * NetworthPeak
-        * LastHitPeak
-        * DenyPeak
-        * DamagePeak
-        * LongestGame
-        * HealingPeak
     9. [HOFFeaturedPlayers](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=HOFFeaturedPlayers)
     10. [InternationalStationRandomDropTracker](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=InternationalStationRandomDropTracker)
     11. [LastHitChallengeHighScore](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=LastHitChallengeHighScore)
