@@ -257,10 +257,6 @@
         * ItemType
         * Count
     5. [CavernCrawlRegisterVictoryAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRegisterVictoryAudit)
-        * EventID
-        * Hero
-        * MatchID
-        * Timestamp
     6. [CavernCrawlRevealedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoom)
         * EventID
         * RoomID
@@ -292,17 +288,7 @@
     11. [EventManualActionGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualActionGrant)
     12. [EventManualPointGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualPointGrant)
     13. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
-        * EventID
-        * ActionID
-        * TimesGranted
     14. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
-        * EventID
-        * PointsBalance
-        * PointsTotal
-        * PremiumBalance
-        * PremiumTotal
-        * TradeBanTime
-        * Owned
     15. [EventPointsHeld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsHeld)
     16. [EventPointsPeriodic](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsPeriodic)
         * EventID
@@ -575,14 +561,6 @@
         * QuestRank
         * MaxQuestRank
     7. [PlayerQuestProgress](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgress)
-        * QuestID
-        * ChallengeID
-        * TimeCompleted
-        * Attempts
-        * Hero
-        * ChallengeType
-        * QuestRank
-        * MaxQuestRank
     8. [PlayerQuestProgressV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerQuestProgressV2)
     9. [PlusPrepaidExpirationAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlusPrepaidExpirationAudit)
         * ActualExpirationDate
