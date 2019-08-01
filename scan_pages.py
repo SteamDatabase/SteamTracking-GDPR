@@ -192,7 +192,7 @@ for appid, game_title_short, game_title in dd_games:
             try:
                 pickle.dump(page_data, open(f'.gcpd_{appid}', 'wb'))
             except Exception as exp:
-                LOG.info("Failed to save %s gcpd data", game_title)
+                LOG.error("Failed to save %s gcpd data", game_title)
                 LOG.exception(exp)
 
 # Tabbed gcpd pages =====================================================================
@@ -268,5 +268,5 @@ for appid, game_title_short, game_title in tab_games:
             try:
                 pickle.dump(pages, open(f'.gcpd_{appid}', 'wb'))
             except Exception as exp:
-                LOG.info("Failed to save %s gcpd data", game_title)
+                LOG.error("Failed to save %s gcpd data", game_title)
                 LOG.exception(exp)
