@@ -62,7 +62,6 @@
         * SoloCompGamesPlayed
         * PartyCompGamesPlayed
         * Casual1v1GamesPlayed
-        * TeamGamesPlayed
         * CurrAllHeroChallengeID
         * AccountFlags
         * PlayTimePoints
