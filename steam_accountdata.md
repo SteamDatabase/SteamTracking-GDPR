@@ -116,6 +116,7 @@ Game User Tag Votes | https://help.steampowered.com/en/accountdata/AppUserTagVot
 My App Reports | https://help.steampowered.com/en/accountdata/MyAppReports
 Email Preferences | https://store.steampowered.com/account/emailoptout
 Outgoing Email | https://help.steampowered.com/en/accountdata/OutgoingEmail
+Interactive Recommender | https://help.steampowered.com/en/accountdata/InteractiveRecommender
 
 Store & Community Events
 ------------------------
