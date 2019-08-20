@@ -127,7 +127,8 @@ Sale Participation | https://help.steampowered.com/en/accountdata/MySaleParticip
 My Sale Votes | https://help.steampowered.com/en/accountdata/MySaleVotes
 Steam Award Nominations 2016 | https://store.steampowered.com/SteamAwards/2016/
 Steam Award Nominations 2017 | https://store.steampowered.com/SteamAwards/2017/
-Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning
+Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
+Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
 
 Broadcasts
