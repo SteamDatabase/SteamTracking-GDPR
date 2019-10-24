@@ -42,7 +42,12 @@
         * SoloSeasonalRankedRankPeak2017
         * SoloSeasonalRankedCalibrationGamesLeft2017
         * SoloSeasonalRankedGamesPlayed2017
-        * RankTier2019
+        * CompCoreCalibrationGamesLeft
+        * CompSupportCalibrationGamesLeft
+        * RankTierCore2020
+        * RankTierSupport2020
+        * RankTierCore2019
+        * RankTierSupport2019
         * RankTier2018
         * PreviousCompRank
         * PreviousSoloCompRank
@@ -130,6 +135,10 @@
         * Communication Abuse
         * Ability Abuse
         * Feeding
+        * DidNotPlayRolePostGame
+        * DidNotPlayRole
+        * AvoidPlayer
+        * AbusiveCoach
         * Leadership
         * Teaching
         * Friendly
@@ -140,6 +149,10 @@
         * Communication Abuse
         * Ability Abuse
         * Feeding
+        * Did Not Play Role PostGame
+        * DidNotPlayRole
+        * AvoidPlayer
+        * AbusiveCoach
         * Leadership
         * Teaching
         * Friendly
@@ -288,13 +301,11 @@
         * NewValue
         * Data
         * Flags
-    11. [EventManualActionGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualActionGrant)
-    12. [EventManualPointGrant](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventManualPointGrant)
-    13. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
+    11. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
         * EventID
         * ActionID
         * TimesGranted
-    14. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
+    12. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
         * EventID
         * PointsBalance
         * PointsTotal
@@ -302,31 +313,26 @@
         * PremiumTotal
         * TradeBanTime
         * Owned
-    15. [EventPointsHeld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsHeld)
-    16. [EventPointsPeriodic](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointsPeriodic)
-        * EventID
-        * Timestamp
-        * PointsSpent
-    17. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
+    13. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
         * EventID
         * Level
-    18. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
-    19. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
+    14. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
+    15. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
         * MatchID
         * Player
-    20. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
+    16. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
         * MatchID
         * MaxWager
         * Wager
         * Winnings
         * TokenItemID
         * RankWager
-    21. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
-    22. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
+    17. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
+    18. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
         * ResourceType
         * Timestamp
         * ResourcesUsed
-    23. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
+    19. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
         * Sequence
         * ResourceType
         * Timestamp
@@ -334,14 +340,14 @@
         * ResourcesUsed
         * ResourcesSpent
         * AuditData
-    24. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
+    20. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
         * ResourceType
         * ResourcesMax
-    25. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
+    21. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
         * EventID
         * MatchID
         * Recipient
-    26. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
+    22. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
         * PredictedVictor
@@ -522,6 +528,7 @@
         * Battle Pass
         * Seasonal Rank
         * Plus
+        * AssignedRole
         * NetWorth
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)

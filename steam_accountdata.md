@@ -57,11 +57,11 @@ Inventory & Items
 Page | URL
 --- | ---
 Your Inventory | https://steamcommunity.com/my/inventory
-Inventory History | https://steamcommunity.com/my/inventoryhistory/?new=1
+Inventory History | https://steamcommunity.com/my/inventoryhistory/
 Gift & Guest Pass History | https://steamcommunity.com/my/inventory#gift_history
 Trading Cards & Badges | https://steamcommunity.com/my/badges/
 Trade Offers & Offer History | https://steamcommunity.com/my/tradeoffers/
-Trade History | https://steamcommunity.com/my/inventoryhistory/
+Trade History | https://steamcommunity.com/my/tradehistory/
 Community Market Listings, Buy Orders, and History | https://steamcommunity.com/market/
 
 Steamworks Game Data
@@ -130,6 +130,7 @@ Steam Award Nominations 2017 | https://store.steampowered.com/SteamAwards/2017/
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
 Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
+Game Events or Announcement First Seen/Read | https://help.steampowered.com/en/accountdata/MyGameEventSeen
 
 Broadcasts
 ----------
@@ -141,6 +142,13 @@ Broadcast Preferences | https://help.steampowered.com/en/accountdata/BroadcastPr
 Viewed Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastViews
 Reported Broadcasts | https://help.steampowered.com/en/accountdata/BroadcastRepots
 Broadcast RTMP Settings | https://steamcommunity.com/broadcast/upload
+
+Remote Play
+-----------
+
+Page | URL
+--- | ---
+Remote Play Sessions | https://help.steampowered.com/en/accountdata/RemotePlaySessions
 
 Chat
 ----
