@@ -117,6 +117,7 @@ My App Reports | https://help.steampowered.com/en/accountdata/MyAppReports
 Email Preferences | https://store.steampowered.com/account/emailoptout
 Outgoing Email | https://help.steampowered.com/en/accountdata/OutgoingEmail
 Interactive Recommender | https://help.steampowered.com/en/accountdata/InteractiveRecommender
+Interactive Recommender Settings | https://help.steampowered.com/en/accountdata/InteractiveRecommenderSettings
 
 Store & Community Events
 ------------------------
@@ -130,7 +131,7 @@ Steam Award Nominations 2017 | https://store.steampowered.com/SteamAwards/2017/
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
 Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
-Game Events or Announcement First Seen/Read | https://help.steampowered.com/en/accountdata/MyGameEventSeen
+Game Event or Announcement First Seen/Read | https://help.steampowered.com/en/accountdata/MyGameEventSeen
 
 Broadcasts
 ----------
