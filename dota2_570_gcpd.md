@@ -135,14 +135,14 @@
         * Communication Abuse
         * Ability Abuse
         * Feeding
-        * DidNotPlayRolePostGame
-        * DidNotPlayRole
-        * AvoidPlayer
-        * AbusiveCoach
-        * Leadership
-        * Teaching
-        * Friendly
-        * Forgiving
+        * Did Not Play Role Postgame
+        * Did Not Play Role
+        * Avoid Player
+        * Abusive Coach
+        * Commended
+        * Cheating
+        * Disruptive Gameplay
+        * Enemy Cheating
     26. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
