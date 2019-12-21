@@ -48,7 +48,6 @@
         * RankTierSupport2020
         * RankTierCore2019
         * RankTierSupport2019
-        * RankTier2018
         * PreviousCompRank
         * PreviousSoloCompRank
         * XP
@@ -146,17 +145,19 @@
     26. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
-        * Communication Abuse
-        * Ability Abuse
-        * Feeding
-        * Did Not Play Role PostGame
-        * DidNotPlayRole
-        * AvoidPlayer
-        * AbusiveCoach
-        * Leadership
-        * Teaching
-        * Friendly
-        * Forgiving
+        * Periodic
+        * Excessive Reports
+        * Excessive Abandons
+        * Match Count
+        * Positive Matches
+        * Reported Matches
+        * Abandoned Matches
+        * Reports
+        * Reporting Parties
+        * Comms Reports
+        * Comms Reporting Parties
+        * Commends
+        * Behavior Score
     27. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
     28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     29. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
@@ -513,6 +514,7 @@
         * Item7
         * Item8
         * Item9
+        * Item10
         * Level
         * Kills
         * Deaths

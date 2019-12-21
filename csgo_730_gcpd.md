@@ -60,11 +60,12 @@
 13. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
     * Mission Partner
     * Mission Time
-14. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
+14. [Operation Progress](https://steamcommunity.com/my/gcpd/730?tab=operationquests)
+15. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
     * Prime Account Status
     * Time
-15. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
+16. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
     * Report Details
     * Reported Player
     * Time
-16. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
+17. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
