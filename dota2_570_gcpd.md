@@ -118,8 +118,6 @@
     17. [LeaderboardSoloMMRPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeaderboardSoloMMRPlayer)
     18. [LeagueEventAttendee](https://steamcommunity.com/my/gcpd/570?category=Account&tab=LeagueEventAttendee)
     19. [MVPVotesByPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesByPlayer)
-        * VoterAccountID
-        * MatchID
     20. [MVPVotesForPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesForPlayer)
     21. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
     22. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
