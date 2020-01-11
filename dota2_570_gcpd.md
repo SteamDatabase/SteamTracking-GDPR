@@ -255,6 +255,10 @@
         * Hero
         * VoteCount
     2. [CavernCrawlClaimedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlClaimedRoom)
+        * EventID
+        * RoomID
+        * TimeStamp
+        * RewardReceived
     3. [CavernCrawlCompletedPath](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlCompletedPath)
         * EventID
         * PathID
@@ -271,7 +275,14 @@
         * MatchID
         * Timestamp
     6. [CavernCrawlRevealedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoom)
+        * EventID
+        * RoomID
+        * TimeStamp
+        * RewardRevealed
     7. [CavernCrawlSwappedChallenge](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlSwappedChallenge)
+        * EventID
+        * PathID1
+        * TimeStamp
     8. [CavernCrawlUseItemAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlUseItemAudit)
         * EventID
         * ItemType
