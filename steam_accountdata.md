@@ -83,6 +83,7 @@ Uploaded Content
 Page | URL
 --- | ---
 Steam Cloud | https://store.steampowered.com/account/remotestorage
+Steam Client Configuration | https://store.steampowered.com/account/userconfigstore
 Screenshots | https://steamcommunity.com/my/screenshots
 Artwork | https://steamcommunity.com/my/images
 Videos | https://steamcommunity.com/my/videos
