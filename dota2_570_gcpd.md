@@ -122,12 +122,11 @@
         * MatchID
     20. [MVPVotesForPlayer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MVPVotesForPlayer)
     21. [ManualEmoticonGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualEmoticonGrant)
-    22. [ManualNotificationsGrant](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ManualNotificationsGrant)
-    23. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
+    22. [MatchComment](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchComment)
         * MatchID
         * Comment
-    24. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
-    25. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
+    23. [MatchMVP](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchMVP)
+    24. [MatchPlayerReport](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReport)
         * MatchID
         * Target
         * Date
@@ -142,7 +141,7 @@
         * Cheating
         * Disruptive Gameplay
         * Enemy Cheating
-    26. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
+    25. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
         * MatchID
         * Date
         * Periodic
@@ -158,23 +157,23 @@
         * Comms Reporting Parties
         * Commends
         * Behavior Score
-    27. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
-    28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
-    29. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    30. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
-    31. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
-    32. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    33. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
-    34. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    26. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
+    27. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
+    28. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
+    29. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
+    30. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
+    31. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    32. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
+    33. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
         * FeaturedHero2
         * FeaturedHero3
-    35. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+    34. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
         * BackgroundItem
-    36. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+    35. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -184,12 +183,12 @@
         * Emoticon
         * Team
         * Value
-    37. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    38. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    39. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
-    40. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
-    41. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
-    42. [UnderlordsCDKeys](https://steamcommunity.com/my/gcpd/570?category=Account&tab=UnderlordsCDKeys)
+    36. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    37. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    38. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    39. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
+    40. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
+    41. [UnderlordsCDKeys](https://steamcommunity.com/my/gcpd/570?category=Account&tab=UnderlordsCDKeys)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
@@ -254,43 +253,19 @@
         * MatchID
         * Hero
         * VoteCount
-    2. [CavernCrawlClaimedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlClaimedRoom)
-        * EventID
-        * RoomID
-        * TimeStamp
-        * RewardReceived
-    3. [CavernCrawlCompletedPath](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlCompletedPath)
-        * EventID
-        * PathID
-        * ChallengeType
-        * MatchID
-        * TimeStamp
-    4. [CavernCrawlItem](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlItem)
+    2. [CavernCrawlAvailableMapVariants](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlAvailableMapVariants)
+    3. [CavernCrawlClaimedRoomV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlClaimedRoomV2)
+    4. [CavernCrawlCompletedPathV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlCompletedPathV2)
+    5. [CavernCrawlItem](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlItem)
         * EventID
         * ItemType
         * Count
-    5. [CavernCrawlRegisterVictoryAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRegisterVictoryAudit)
-        * EventID
-        * Hero
-        * MatchID
-        * Timestamp
-    6. [CavernCrawlRevealedRoom](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoom)
-        * EventID
-        * RoomID
-        * TimeStamp
-        * RewardRevealed
-    7. [CavernCrawlSwappedChallenge](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlSwappedChallenge)
-        * EventID
-        * PathID1
-        * TimeStamp
-    8. [CavernCrawlUseItemAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlUseItemAudit)
-        * EventID
-        * ItemType
-        * RoomID
-        * PathID
-        * TimeStamp
-    9. [EventAllStarVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAllStarVotes)
-    10. [EventAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAudit)
+    6. [CavernCrawlRegisterVictoryAuditV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRegisterVictoryAuditV2)
+    7. [CavernCrawlRevealedRoomV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlRevealedRoomV2)
+    8. [CavernCrawlSwappedChallengeV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlSwappedChallengeV2)
+    9. [CavernCrawlUseItemAuditV2](https://steamcommunity.com/my/gcpd/570?category=Events&tab=CavernCrawlUseItemAuditV2)
+    10. [EventAllStarVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAllStarVotes)
+    11. [EventAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventAudit)
         * EventID
         * Timestamp
         * AuditAction
@@ -302,11 +277,11 @@
         * NewValue
         * Data
         * Flags
-    11. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
+    12. [EventPointActions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPointActions)
         * EventID
         * ActionID
         * TimesGranted
-    12. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
+    13. [EventPoints](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventPoints)
         * EventID
         * PointsBalance
         * PointsTotal
@@ -314,26 +289,26 @@
         * PremiumTotal
         * TradeBanTime
         * Owned
-    13. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
+    14. [EventRollup](https://steamcommunity.com/my/gcpd/570?category=Events&tab=EventRollup)
         * EventID
         * Level
-    14. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
-    15. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
+    15. [LobbyMVPVoteAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=LobbyMVPVoteAudit)
+    16. [MVPVotes](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MVPVotes)
         * MatchID
         * Player
-    16. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
+    17. [MatchWagers](https://steamcommunity.com/my/gcpd/570?category=Events&tab=MatchWagers)
         * MatchID
         * MaxWager
         * Wager
         * Winnings
         * TokenItemID
         * RankWager
-    17. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
-    18. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
+    18. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
+    19. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
         * ResourceType
         * Timestamp
         * ResourcesUsed
-    19. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
+    20. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
         * Sequence
         * ResourceType
         * Timestamp
@@ -341,14 +316,14 @@
         * ResourcesUsed
         * ResourcesSpent
         * AuditData
-    20. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
+    21. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
         * ResourceType
         * ResourcesMax
-    21. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
+    22. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
         * EventID
         * MatchID
         * Recipient
-    22. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
+    23. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
         * PredictedVictor
@@ -372,27 +347,7 @@
         * Player5
         * Score
         * Percentile
-7. [Guilds](https://steamcommunity.com/my/gcpd/570?category=Guilds)
-    1. [GuildAudit](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildAudit)
-        * GuildID
-        * Name
-        * EventIndex
-        * Timestamp
-        * Created
-        * SetRole
-        * InviteSend
-        * InviteCanceled
-        * DetailsUpdated
-        * MessageUpdated
-        * LogoUpdated
-        * NameUpdated
-        * Requestor
-        * Target
-        * ReferenceDataA
-        * ReferenceDataB
-    2. [GuildInvites](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildInvites)
-    3. [GuildMembers](https://steamcommunity.com/my/gcpd/570?category=Guilds&tab=GuildMembers)
-8. [History](https://steamcommunity.com/my/gcpd/570?category=History)
+7. [History](https://steamcommunity.com/my/gcpd/570?category=History)
     1. [BetaParticipation](https://steamcommunity.com/my/gcpd/570?category=History&tab=BetaParticipation)
         * Beta
         * TournamentPlayer
@@ -409,7 +364,7 @@
         * Team
         * PartyID
     5. [PlayerCoachTeammateRating](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachTeammateRating)
-9. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
+8. [Items](https://steamcommunity.com/my/gcpd/570?category=Items)
     1. [AccountLimitedItemPurchase](https://steamcommunity.com/my/gcpd/570?category=Items&tab=AccountLimitedItemPurchase)
         * ItemDefIndex
         * Item
@@ -467,7 +422,7 @@
         * PartnerAccountType
         * PartnerCurrencyVersion
     15. [TradeAudit](https://steamcommunity.com/my/gcpd/570?category=Items&tab=TradeAudit)
-10. [Leagues](https://steamcommunity.com/my/gcpd/570?category=Leagues)
+9. [Leagues](https://steamcommunity.com/my/gcpd/570?category=Leagues)
     1. [BadgeBinding](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=BadgeBinding)
     2. [BadgePointsAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=BadgePointsAudit)
         * TrophyID
@@ -479,7 +434,7 @@
     5. [LeagueAudit](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueAudit)
     6. [LeagueMessage](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueMessage)
     7. [LeagueTournamentAccount](https://steamcommunity.com/my/gcpd/570?category=Leagues&tab=LeagueTournamentAccount)
-11. [Matches](https://steamcommunity.com/my/gcpd/570?category=Matches)
+10. [Matches](https://steamcommunity.com/my/gcpd/570?category=Matches)
     1. [BotPlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=BotPlayerMatchHistory)
     2. [CorporationMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=CorporationMatchHistory)
     3. [InMatchSpectator](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=InMatchSpectator)
@@ -535,7 +490,7 @@
     8. [PlayerMatchHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchHistoryWindow)
     9. [PlayerMatchItemPurchaseHistoryWindow](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=PlayerMatchItemPurchaseHistoryWindow)
     10. [SaveGameLobbyUsers](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=SaveGameLobbyUsers)
-12. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
+11. [Plus](https://steamcommunity.com/my/gcpd/570?category=Plus)
     1. [PlayerChallenges](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallenges)
         * EventID
         * SlotID
@@ -596,11 +551,11 @@
         * ActualExpirationDate
         * PrepaidTimeStart
         * PrepaidTimeBalance
-13. [Pubstomp](https://steamcommunity.com/my/gcpd/570?category=Pubstomp)
+12. [Pubstomp](https://steamcommunity.com/my/gcpd/570?category=Pubstomp)
     1. [PubStompAttendance](https://steamcommunity.com/my/gcpd/570?category=Pubstomp&tab=PubStompAttendance)
     2. [PubStompEvents](https://steamcommunity.com/my/gcpd/570?category=Pubstomp&tab=PubStompEvents)
     3. [PubstompAccount](https://steamcommunity.com/my/gcpd/570?category=Pubstomp&tab=PubstompAccount)
-14. [Stats](https://steamcommunity.com/my/gcpd/570?category=Stats)
+13. [Stats](https://steamcommunity.com/my/gcpd/570?category=Stats)
     1. [AllHeroChallenge](https://steamcommunity.com/my/gcpd/570?category=Stats&tab=AllHeroChallenge)
         * LapTimeStarted
         * LapsCompleted
@@ -733,7 +688,7 @@
         * NewScore
         * OriginalFails
         * NewFails
-15. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
+14. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
     1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
         * Timestamp
         * TeamID
