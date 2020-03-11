@@ -119,6 +119,7 @@ Email Preferences | https://store.steampowered.com/account/emailoptout
 Outgoing Email | https://help.steampowered.com/en/accountdata/OutgoingEmail
 Interactive Recommender | https://help.steampowered.com/en/accountdata/InteractiveRecommender
 Interactive Recommender Settings | https://help.steampowered.com/en/accountdata/InteractiveRecommenderSettings
+#Help_AccountData_StoreRewards | https://store.steampowered.com/salerewards/tokensummary
 
 Store & Community Events
 ------------------------
