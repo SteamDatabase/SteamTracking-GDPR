@@ -29,6 +29,13 @@
     * ★
 6. [Favorite Events](https://steamcommunity.com/my/gcpd/730?tab=eventschedulefavorites)
 7. [Latency](https://steamcommunity.com/my/gcpd/730?tab=latency)
+    * Country Code
+    * Game IP Address
+    * Game Server Region
+    * Latency Measured
+    * Latitude
+    * Longitude
+    * Ping Measurement
 8. [Leaderboards](https://steamcommunity.com/my/gcpd/730?tab=leaderboards)
     * Leaderboard
     * Score
