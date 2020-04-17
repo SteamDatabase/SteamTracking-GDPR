@@ -396,19 +396,7 @@
         * Quantity
     9. [ItemDropRateBooster](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemDropRateBooster)
     10. [ItemLeagueViewPass](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemLeagueViewPass)
-        * LeagueID
-        * DefIndex
-        * Item
-        * GrantReason
     11. [ItemTournamentPassport](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ItemTournamentPassport)
-        * LeagueID
-        * ItemID
-        * OriginalPurchaser
-        * PassportsBought
-        * Version
-        * DefIndex
-        * Item
-        * RewardFlags
     12. [ManualItemGrantV1](https://steamcommunity.com/my/gcpd/570?category=Items&tab=ManualItemGrantV1)
     13. [RedeemCodesTable](https://steamcommunity.com/my/gcpd/570?category=Items&tab=RedeemCodesTable)
     14. [TFTransaction](https://steamcommunity.com/my/gcpd/570?category=Items&tab=TFTransaction)
