@@ -162,8 +162,8 @@ Page | URL
 --- | ---
 Friend Chat Messages | https://help.steampowered.com/en/accountdata/GetFriendMessagesLog
 
-Have an account data question?
-------------------------------
+Have an account data or deletion of data question?
+--------------------------------------------------
 
 Page | URL
 --- | ---
