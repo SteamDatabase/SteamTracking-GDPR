@@ -166,10 +166,6 @@
     32. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
     33. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
     34. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
-        * BackgroundItemID
-        * FeaturedHero1
-        * FeaturedHero2
-        * FeaturedHero3
     35. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
