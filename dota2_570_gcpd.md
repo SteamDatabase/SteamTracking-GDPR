@@ -142,21 +142,6 @@
         * Disruptive Gameplay
         * Enemy Cheating
     25. [MatchPlayerReportIncoming](https://steamcommunity.com/my/gcpd/570?category=Account&tab=MatchPlayerReportIncoming)
-        * MatchID
-        * Date
-        * Periodic
-        * Excessive Reports
-        * Excessive Abandons
-        * Match Count
-        * Positive Matches
-        * Reported Matches
-        * Abandoned Matches
-        * Reports
-        * Reporting Parties
-        * Comms Reports
-        * Comms Reporting Parties
-        * Commends
-        * Behavior Score
     26. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
     27. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     28. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
@@ -166,6 +151,10 @@
     32. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
     33. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
     34. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+        * BackgroundItemID
+        * FeaturedHero1
+        * FeaturedHero2
+        * FeaturedHero3
     35. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
@@ -187,10 +176,6 @@
     41. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
-        * TeamGID
-        * BuyIn
-        * SkillLevel
-        * StreakAfter
     2. [AutomatedTourneyPlayerStats](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayerStats)
         * SeasonTrophyID
         * SkillLevel
@@ -354,15 +339,7 @@
         * Percentile
 7. [History](https://steamcommunity.com/my/gcpd/570?category=History)
     1. [BetaParticipation](https://steamcommunity.com/my/gcpd/570?category=History&tab=BetaParticipation)
-        * Beta
-        * TournamentPlayer
-        * TournamentAdmin
-        * 3rdPartyMatchHistory
-        * ProfilePrivate
     2. [MatchSpectatorIDs](https://steamcommunity.com/my/gcpd/570?category=History&tab=MatchSpectatorIDs)
-        * MatchID
-        * IsSpectator
-        * PartyAccountID
     3. [PlayerBroadcasterHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerBroadcasterHistory)
     4. [PlayerCoachHistory](https://steamcommunity.com/my/gcpd/570?category=History&tab=PlayerCoachHistory)
         * MatchID
@@ -695,18 +672,6 @@
         * NewFails
 14. [Teams](https://steamcommunity.com/my/gcpd/570?category=Teams)
     1. [TeamAudit](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamAudit)
-        * Timestamp
-        * TeamID
-        * Create
-        * Edit
-        * AddMember
-        * RemoveMember
-        * ChangeAdmin
-        * BecomeSub
-        * SetPro
-        * SetLocked
-        * Data1
-        * Data2
     2. [TeamCreationTime](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamCreationTime)
     3. [TeamMembership](https://steamcommunity.com/my/gcpd/570?category=Teams&tab=TeamMembership)
         * TeamID
