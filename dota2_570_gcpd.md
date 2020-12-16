@@ -44,10 +44,7 @@
         * SoloSeasonalRankedGamesPlayed2017
         * CompCoreCalibrationGamesLeft
         * CompSupportCalibrationGamesLeft
-        * RankTierCore2020
-        * RankTierSupport2020
-        * RankTierCore2019
-        * RankTierSupport2019
+        * RankTierPrevious
         * PreviousCompRank
         * PreviousSoloCompRank
         * XP
@@ -314,6 +311,7 @@
         * Timestamp
         * ResourcesUsed
     25. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
+    26. [PeriodicResourceAuditOld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAuditOld)
         * Sequence
         * ResourceType
         * Timestamp
@@ -321,14 +319,14 @@
         * ResourcesUsed
         * ResourcesSpent
         * AuditData
-    26. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
+    27. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
         * ResourceType
         * ResourcesMax
-    27. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
+    28. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
         * EventID
         * MatchID
         * Recipient
-    28. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
+    29. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
         * PredictedVictor
@@ -336,10 +334,10 @@
         * Lost
         * Won
         * Tied
-    29. [UnderDraft](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraft)
-    30. [UnderDraftAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftAudit)
-    31. [UnderDraftBench](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftBench)
-    32. [UnderDraftShop](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftShop)
+    30. [UnderDraft](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraft)
+    31. [UnderDraftAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftAudit)
+    32. [UnderDraftBench](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftBench)
+    33. [UnderDraftShop](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftShop)
 6. [Fantasy](https://steamcommunity.com/my/gcpd/570?category=Fantasy)
     1. [FantasyDPCDayScores](https://steamcommunity.com/my/gcpd/570?category=Fantasy&tab=FantasyDPCDayScores)
     2. [FantasyDPCSeriesScores](https://steamcommunity.com/my/gcpd/570?category=Fantasy&tab=FantasyDPCSeriesScores)

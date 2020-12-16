@@ -46,7 +46,9 @@
     * Loadout Slot
     * Team
 10. [Major Pick'Em](https://steamcommunity.com/my/gcpd/730?tab=majors)
-11. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
+11. [Match Events](https://steamcommunity.com/my/gcpd/730?tab=deepplayerstatsmatchevent)
+12. [Match Stats](https://steamcommunity.com/my/gcpd/730?tab=deepplayerstatsmatchentry)
+13. [Matchmaking](https://steamcommunity.com/my/gcpd/730?tab=matchmaking)
     * Last Match
     * Losses
     * Matches Played
@@ -56,16 +58,16 @@
     * Squad Wins
     * Ties
     * Wins
-12. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)
-13. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
+14. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)
+15. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
     * Mission Partner
     * Mission Time
-14. [Operation Progress](https://steamcommunity.com/my/gcpd/730?tab=operationquests)
-15. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
+16. [Operation Progress](https://steamcommunity.com/my/gcpd/730?tab=operationquests)
+17. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
     * Prime Account Status
     * Time
-16. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
+18. [Reports](https://steamcommunity.com/my/gcpd/730?tab=playerreports)
     * Report Details
     * Reported Player
     * Time
-17. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
+19. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)

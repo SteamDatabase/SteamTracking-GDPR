@@ -119,7 +119,7 @@ Email Preferences | https://store.steampowered.com/account/emailoptout
 Outgoing Email | https://help.steampowered.com/en/accountdata/OutgoingEmail
 Interactive Recommender | https://help.steampowered.com/en/accountdata/InteractiveRecommender
 Interactive Recommender Settings | https://help.steampowered.com/en/accountdata/InteractiveRecommenderSettings
-#Help_AccountData_StoreRewards | https://store.steampowered.com/salerewards/tokensummary
+Steam Points History | https://store.steampowered.com/pointssummary/tokensummary
 
 Store & Community Events
 ------------------------
@@ -128,10 +128,12 @@ Page | URL
 --- | ---
 Sale Participation | https://help.steampowered.com/en/accountdata/MySaleParticipation
 My Sale Votes | https://help.steampowered.com/en/accountdata/MySaleVotes
-Steam Award Nominations 2016 | https://store.steampowered.com/SteamAwards/2016/
-Steam Award Nominations 2017 | https://store.steampowered.com/SteamAwards/2017/
-Steam Award Nominations 2018 | https://store.steampowered.com/SteamAwards/2018/
-Steam Award Nominations 2019 | https://store.steampowered.com/SteamAwards/2019/
+Steam Awards 2016 | https://store.steampowered.com/SteamAwards/2016/
+Steam Awards 2017 | https://store.steampowered.com/SteamAwards/2017/
+Steam Awards 2018 | https://store.steampowered.com/SteamAwards/2018/
+Steam Awards 2019 | https://store.steampowered.com/SteamAwards/2019/
+Steam Award Nominations 2019 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2019
+Steam Award Nominations 2020 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2020
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
 Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
