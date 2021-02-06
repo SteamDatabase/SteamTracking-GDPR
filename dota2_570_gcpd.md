@@ -521,19 +521,6 @@
     2. [PlayerChallengesAudit](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAudit)
     3. [PlayerChallengesAuditV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV2)
     4. [PlayerChallengesAuditV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesAuditV3)
-        * Rerolled
-        * Completed
-        * Attempted
-        * SlotID
-        * EventID
-        * Timestamp
-        * TemplateID
-        * InstanceID
-        * CreatedTime
-        * Completed
-        * Tier
-        * Attempts
-        * CompleteLimit
     5. [PlayerChallengesV2](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesV2)
     6. [PlayerChallengesV3](https://steamcommunity.com/my/gcpd/570?category=Plus&tab=PlayerChallengesV3)
         * EventID
