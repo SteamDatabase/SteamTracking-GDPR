@@ -159,24 +159,23 @@
     27. [Notifications](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Notifications)
     28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     29. [OverwatchAccountStatus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchAccountStatus)
-    30. [OverwatchBanAudit](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchBanAudit)
-    31. [OverwatchMatchReviewer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchMatchReviewer)
-    32. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    33. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
-    34. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
-    35. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    36. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
-    37. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
-    38. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    30. [OverwatchMatchReviewer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchMatchReviewer)
+    31. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
+    32. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
+    33. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
+    34. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    35. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
+    36. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
+    37. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
         * FeaturedHero2
         * FeaturedHero3
-    39. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+    38. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
         * BackgroundItem
-    40. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+    39. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -186,11 +185,11 @@
         * Emoticon
         * Team
         * Value
-    41. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    42. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    43. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
-    44. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
-    45. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
+    40. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    41. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    42. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    43. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
+    44. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
