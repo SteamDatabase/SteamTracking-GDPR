@@ -2,14 +2,50 @@
     1. [AccountAchievement](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=AccountAchievement)
     2. [AccountAchievementAudit](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=AccountAchievementAudit)
     3. [GameAccount](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=GameAccount)
+        * AdditionalBackpackSlots
+        * Flags
+        * TradeBanExpiration
+        * NumGiftsGiven
     4. [GameAccountClient](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=GameAccountClient)
+        * AccountID
+        * Flags
+        * InitialGrantAckDef
+        * RecyclingProgress
+        * ProgressLevel
+        * ProgressXP
+        * ConstructedMMRLevel
+        * DraftMMRLevel
+        * LastWinBonusTime
+        * MatchWinStreak
+        * BonusPeriodWins
+        * PlayerBadge
     5. [GameSessionData](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=GameSessionData)
+        * LastLoggedOut
+        * TimePlayedConsecutively
+        * LastLoggedIn
+        * FirstPlayed
+        * RewardPoints
+        * NextRewardAt
+        * NextSupplyCrateAt
+        * PointCap
+        * LastCapRollover
+        * GamesPlayedSinceLastDrop
+        * TimePlayedSinceLastDrop
+        * GamesPlayedSinceLastDropCrate
+        * TimePlayedSinceLastDropCrate
     6. [Gauntlet](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=Gauntlet)
     7. [GauntletPointsLeaderboard](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=GauntletPointsLeaderboard)
     8. [LevelProgressAudit](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=LevelProgressAudit)
     9. [LimitedChoiceSet](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=LimitedChoiceSet)
     10. [PlayerLimitedProgress](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=PlayerLimitedProgress)
     11. [WeeklyPlayerBehavior](https://steamcommunity.com/my/gcpd/583950?category=Account&tab=WeeklyPlayerBehavior)
+        * Timestamp
+        * AccountID
+        * DaysPlayed
+        * GamesPlayed
+        * MinutesPlayed
+        * Purchases
+        * SpendAmountUSCents
 2. [Games](https://steamcommunity.com/my/gcpd/583950?category=Games)
     1. [GauntletAudit](https://steamcommunity.com/my/gcpd/583950?category=Games&tab=GauntletAudit)
     2. [GauntletJoinStats](https://steamcommunity.com/my/gcpd/583950?category=Games&tab=GauntletJoinStats)
@@ -24,6 +60,15 @@
     4. [PhantomItemAudit](https://steamcommunity.com/my/gcpd/583950?category=Items&tab=PhantomItemAudit)
     5. [PhantomItems](https://steamcommunity.com/my/gcpd/583950?category=Items&tab=PhantomItems)
     6. [TFTransaction](https://steamcommunity.com/my/gcpd/583950?category=Items&tab=TFTransaction)
+        * TxnID
+        * SteamTxnID
+        * TimeInit
+        * LastUpdateTime
+        * Currency
+        * Status
+        * WebReferrerID
+        * PartnerAccountType
+        * PartnerCurrencyVersion
     7. [TradeAudit](https://steamcommunity.com/my/gcpd/583950?category=Items&tab=TradeAudit)
 4. [Tournament](https://steamcommunity.com/my/gcpd/583950?category=Tournament)
     1. [TourneyInvite](https://steamcommunity.com/my/gcpd/583950?category=Tournament&tab=TourneyInvite)
