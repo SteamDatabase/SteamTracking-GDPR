@@ -449,10 +449,6 @@
     1. [BotPlayerMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=BotPlayerMatchHistory)
     2. [CorporationMatchHistory](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=CorporationMatchHistory)
     3. [InMatchSpectator](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=InMatchSpectator)
-        * MatchID
-        * AccountID
-        * Slot
-        * Team
     4. [MatchCaptains](https://steamcommunity.com/my/gcpd/570?category=Matches&tab=MatchCaptains)
         * MatchID
         * RadiantCaptain
