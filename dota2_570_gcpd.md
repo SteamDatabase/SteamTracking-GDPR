@@ -32,18 +32,6 @@
         * Wins
         * Losses
         * SoloCalibrationGamesLeft
-        * GeneralSeasonalRankedRank2017
-        * GeneralSeasonalRankedRankUncertainty2017
-        * GeneralSeasonalRankedRankPeak2017
-        * GeneralSeasonalRankedCalibrationGamesLeft2017
-        * GeneralSeasonalRankedGamesPlayed2017
-        * SoloSeasonalRankedRank2017
-        * SoloSeasonalRankedRankUncertainty2017
-        * SoloSeasonalRankedRankPeak2017
-        * SoloSeasonalRankedCalibrationGamesLeft2017
-        * SoloSeasonalRankedGamesPlayed2017
-        * CompCoreCalibrationGamesLeft
-        * CompSupportCalibrationGamesLeft
         * RankTierPrevious
         * PreviousCompRank
         * PreviousSoloCompRank
