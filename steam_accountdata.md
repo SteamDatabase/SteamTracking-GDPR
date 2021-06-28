@@ -28,6 +28,7 @@ Steam Hardware Registrations | https://help.steampowered.com/en/accountdata/Stea
 Tournament Registrations | https://help.steampowered.com/en/accountdata/TournamentRegistrations
 Steam Box Beta Registrations | https://help.steampowered.com/en/accountdata/SteamBoxBetaRegistration
 Computer Names | https://help.steampowered.com/en/accountdata/MachineAuthName
+Third Party Marketing Links (UTM Tracking) | https://help.steampowered.com/en/accountdata/UTM
 
 Community & Profile
 -------------------
@@ -132,6 +133,7 @@ Steam Awards 2016 | https://store.steampowered.com/SteamAwards/2016/
 Steam Awards 2017 | https://store.steampowered.com/SteamAwards/2017/
 Steam Awards 2018 | https://store.steampowered.com/SteamAwards/2018/
 Steam Awards 2019 | https://store.steampowered.com/SteamAwards/2019/
+Steam Awards 2020 | https://store.steampowered.com/SteamAwards/2020/
 Steam Award Nominations 2019 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2019
 Steam Award Nominations 2020 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2020
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018

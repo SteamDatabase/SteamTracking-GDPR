@@ -70,4 +70,5 @@
     * Report Details
     * Reported Player
     * Time
-19. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
+19. [Scrimmage Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryscrimmage)
+20. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
