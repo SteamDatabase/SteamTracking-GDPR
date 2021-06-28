@@ -61,7 +61,6 @@
         * ClosestRelayPing
         * TourneySkillLevel
         * TourneyRecentDate
-        * FavoriteTeam
         * WinStreak
         * AnchoredPhoneNumberID
         * RecentGameTime3
@@ -148,22 +147,20 @@
     28. [OfficialPlayerInfo](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OfficialPlayerInfo)
     29. [OverwatchAccountStatus](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchAccountStatus)
     30. [OverwatchMatchReviewer](https://steamcommunity.com/my/gcpd/570?category=Account&tab=OverwatchMatchReviewer)
-    31. [PWDOTA1AccountLink](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PWDOTA1AccountLink)
-    32. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
-    33. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
-    34. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
-    35. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
-    36. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
-    37. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
+    31. [PartySearchPlayerInvites](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayerInvites)
+    32. [PartySearchPlayers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PartySearchPlayers)
+    33. [PhoneAnchorCooldown](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PhoneAnchorCooldown)
+    34. [PlayerTitle](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PlayerTitle)
+    35. [ProPlayerResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProPlayerResults)
+    36. [Profile](https://steamcommunity.com/my/gcpd/570?category=Account&tab=Profile)
         * BackgroundItemID
         * FeaturedHero1
         * FeaturedHero2
         * FeaturedHero3
-    38. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
+    37. [ProfileCard](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCard)
         * BadgePoints
         * RecentVictoryWeekendTourneyID
-        * BackgroundItem
-    39. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
+    38. [ProfileCardSlot](https://steamcommunity.com/my/gcpd/570?category=Account&tab=ProfileCardSlot)
         * Slot
         * Empty
         * Stat
@@ -173,11 +170,11 @@
         * Emoticon
         * Team
         * Value
-    40. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
-    41. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
-    42. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
-    43. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
-    44. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
+    39. [PromoRegisteredUsers](https://steamcommunity.com/my/gcpd/570?category=Account&tab=PromoRegisteredUsers)
+    40. [SurveyQuestionPermission](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionPermission)
+    41. [SurveyQuestionResults](https://steamcommunity.com/my/gcpd/570?category=Account&tab=SurveyQuestionResults)
+    42. [TicketCodeClaimed](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeClaimed)
+    43. [TicketCodeEligible](https://steamcommunity.com/my/gcpd/570?category=Account&tab=TicketCodeEligible)
 2. [BattleCup](https://steamcommunity.com/my/gcpd/570?category=BattleCup)
     1. [AutomatedTourneyPlayer](https://steamcommunity.com/my/gcpd/570?category=BattleCup&tab=AutomatedTourneyPlayer)
         * TeamGID
@@ -297,13 +294,12 @@
         * Winnings
         * TokenItemID
         * RankWager
-    23. [NewYearsOfferings](https://steamcommunity.com/my/gcpd/570?category=Events&tab=NewYearsOfferings)
-    24. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
+    23. [PeriodicResource](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResource)
         * ResourceType
         * Timestamp
         * ResourcesUsed
-    25. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
-    26. [PeriodicResourceAuditOld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAuditOld)
+    24. [PeriodicResourceAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAudit)
+    25. [PeriodicResourceAuditOld](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceAuditOld)
         * Sequence
         * ResourceType
         * Timestamp
@@ -311,14 +307,14 @@
         * ResourcesUsed
         * ResourcesSpent
         * AuditData
-    27. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
+    26. [PeriodicResourceMax](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PeriodicResourceMax)
         * ResourceType
         * ResourcesMax
-    28. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
+    27. [PostMatchTipping](https://steamcommunity.com/my/gcpd/570?category=Events&tab=PostMatchTipping)
         * EventID
         * MatchID
         * Recipient
-    29. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
+    28. [ProCircuitLockedPredictions](https://steamcommunity.com/my/gcpd/570?category=Events&tab=ProCircuitLockedPredictions)
         * LeagueID
         * TokensWagered
         * PredictedVictor
@@ -326,10 +322,10 @@
         * Lost
         * Won
         * Tied
-    30. [UnderDraft](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraft)
-    31. [UnderDraftAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftAudit)
-    32. [UnderDraftBench](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftBench)
-    33. [UnderDraftShop](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftShop)
+    29. [UnderDraft](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraft)
+    30. [UnderDraftAudit](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftAudit)
+    31. [UnderDraftBench](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftBench)
+    32. [UnderDraftShop](https://steamcommunity.com/my/gcpd/570?category=Events&tab=UnderDraftShop)
 6. [Fantasy](https://steamcommunity.com/my/gcpd/570?category=Fantasy)
     1. [FantasyDPCDayScores](https://steamcommunity.com/my/gcpd/570?category=Fantasy&tab=FantasyDPCDayScores)
     2. [FantasyDPCSeriesScores](https://steamcommunity.com/my/gcpd/570?category=Fantasy&tab=FantasyDPCSeriesScores)
