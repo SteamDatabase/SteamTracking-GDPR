@@ -134,8 +134,10 @@ Steam Awards 2017 | https://store.steampowered.com/SteamAwards/2017/
 Steam Awards 2018 | https://store.steampowered.com/SteamAwards/2018/
 Steam Awards 2019 | https://store.steampowered.com/SteamAwards/2019/
 Steam Awards 2020 | https://store.steampowered.com/SteamAwards/2020/
+Steam Awards 2021 | https://store.steampowered.com/SteamAwards/2021/
 Steam Award Nominations 2019 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2019
 Steam Award Nominations 2020 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2020
+Steam Award Nominations 2021 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2021
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
 Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
