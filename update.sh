@@ -3,7 +3,7 @@
 date
 
 # scan for changes
-pipenv run python scan_pages.py
+/home/rgp/.local/bin/pipenv run python scan_pages.py
 
 # check for changes files and push
 git add -u

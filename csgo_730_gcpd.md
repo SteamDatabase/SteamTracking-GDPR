@@ -17,16 +17,8 @@
     * Player
     * Time
 5. [Competitive Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorycompetitive)
-    * A
-    * D
-    * HSP
-    * K
     * Map
     * Match Results
-    * Ping
-    * Player Name
-    * Score
-    * ★
 6. [Favorite Events](https://steamcommunity.com/my/gcpd/730?tab=eventschedulefavorites)
 7. [Latency](https://steamcommunity.com/my/gcpd/730?tab=latency)
     * Country Code
@@ -59,9 +51,9 @@
     * Ties
     * Wins
 14. [Operation Hydra Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryophydra)
+    * Map
+    * Match Results
 15. [Operation Mission Partners](https://steamcommunity.com/my/gcpd/730?tab=missioncoplay)
-    * Mission Partner
-    * Mission Time
 16. [Operation Progress](https://steamcommunity.com/my/gcpd/730?tab=operationquests)
 17. [Prime Account](https://steamcommunity.com/my/gcpd/730?tab=primeaccount)
     * Prime Account Status
@@ -71,4 +63,8 @@
     * Reported Player
     * Time
 19. [Scrimmage Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistoryscrimmage)
+    * Map
+    * Match Results
 20. [Wingman Matches](https://steamcommunity.com/my/gcpd/730?tab=matchhistorywingman)
+    * Map
+    * Match Results

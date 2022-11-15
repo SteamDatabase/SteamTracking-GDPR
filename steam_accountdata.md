@@ -29,6 +29,7 @@ Tournament Registrations | https://help.steampowered.com/en/accountdata/Tourname
 Steam Box Beta Registrations | https://help.steampowered.com/en/accountdata/SteamBoxBetaRegistration
 Computer Names | https://help.steampowered.com/en/accountdata/MachineAuthName
 Third Party Marketing Links (UTM Tracking) | https://help.steampowered.com/en/accountdata/UTM
+Steam Deck Compatibility Feedback | https://help.steampowered.com/en/accountdata/SteamDeckCompatibility
 
 Community & Profile
 -------------------
@@ -51,6 +52,7 @@ My Group Events | https://help.steampowered.com/en/accountdata/MyGroupEvents
 My Activity Feed | https://steamcommunity.com//my/myactivity
 Friends Activity Feed | https://steamcommunity.com//my/home
 Your Game Server Accounts | https://steamcommunity.com/dev/managegameservers
+Comment Reports and Hidden Comments | https://help.steampowered.com/en/accountdata/MyCommentReports
 
 Inventory & Items
 -----------------
@@ -140,6 +142,7 @@ Steam Award Nominations 2020 | https://help.steampowered.com/en/accountdata/Stea
 Steam Award Nominations 2021 | https://help.steampowered.com/en/accountdata/SteamAwardNominations2021
 Spring Cleaning Event 2018 | https://store.steampowered.com/springcleaning/2018
 Spring Cleaning Event 2019 | https://store.steampowered.com/springcleaning/2019
+Steam Next Fest Event - Game Demos played | https://help.steampowered.com/en/accountdata/NextFestDemoPlays
 Community Events Followed or Ignored | https://help.steampowered.com/en/accountdata/EventFollows
 Game Event or Announcement First Seen/Read | https://help.steampowered.com/en/accountdata/MyGameEventSeen
 
